@@ -1,5 +1,9 @@
 # BabyBeltPro
-BabyBelt Pro - Beta
+BabyBelt Pro
+
+0.2 MM layer height, 5 walls, 18% or so infill.  Parts say if they need supports or number count.
+
+I guess you can print it in anything other than TPU or PVA.  I print most in PLA or PETG
 
 *****
 Babybelt is here https://github.com/RobMink/BabyBelt
