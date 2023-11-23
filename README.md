@@ -13,6 +13,8 @@ BOM  https://docs.google.com/spreadsheets/d/18tzwZBVWanrHeX3lQtCtIlJUTP7IhFuw84t
 
 www.printcepts.com
 
+Build Instructions (WIP) - https://docs.google.com/document/d/1mQGLsETf6Q4ewTDiO3IRaFPFiom4OAmT2Igr8BftApE/edit?usp=sharing
+
 DISCORD: https://discord.gg/nVmeNJJSH2BB - Note, remove BB at the end of the link. Done to eleminate spam bots.
 
 Youtube: www.youtube.com/c/robmink
