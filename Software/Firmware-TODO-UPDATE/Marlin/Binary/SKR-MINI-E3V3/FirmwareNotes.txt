@@ -1,0 +1,3 @@
+Motor current for X and Y may be high, depends on motors, try around 380mA
+
+You need to set the steps for your extruder!
