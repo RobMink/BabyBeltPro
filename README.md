@@ -1,6 +1,8 @@
 # BabyBeltPro
 BabyBelt Pro (V2, see branches for V1)
 
+V2 changes - Print at 30 or 45 degrees.  Better underbed, one Y linear rail.  Better wire routing, Holes for run out and USB.  Stronger bed tention system.  Better gantry setup with X belt tention.  Homes Y to bed.  Klipper Config file not yet updated, TODO!
+
 0.2 MM layer height, 5 walls, 18% or so infill.  Parts say if they need supports or number count.
 
 I guess you can print it in anything other than TPU or PVA.  I print most in PLA or PETG, Underbed must NOT be PLA for heat resistance reasons (ABS, PETG... Ok!)
