@@ -1,5 +1,16 @@
 # BabyBeltPro
-BabyBelt Pro (V2 - EXPERIMENTAL, see branches for V1)
+BabyBelt Pro (V2 XL)
+
+
+BOM changes for XL
+
+1 MGN12C 250mm (or longer, base xl mod is 250)
+
+1 MGN7 250 (same)
+
+M3 headsets
+
+more M3x20mm bolts.
 
 V2 changes - Print at 30 or 45 degrees.  Better underbed, one Y linear rail.  Better wire routing, Holes for run out and USB.  Stronger bed tention system.  Better gantry setup with X belt tention.  Homes Y to bed.  Klipper Config file not yet updated, TODO!
 
