@@ -1,5 +1,5 @@
 # BabyBeltPro
-BabyBelt Pro (V2, see branches for V1)
+BabyBelt Pro (V2 - EXPERIMENTAL, see branches for V1)
 
 V2 changes - Print at 30 or 45 degrees.  Better underbed, one Y linear rail.  Better wire routing, Holes for run out and USB.  Stronger bed tention system.  Better gantry setup with X belt tention.  Homes Y to bed.  Klipper Config file not yet updated, TODO!
 
