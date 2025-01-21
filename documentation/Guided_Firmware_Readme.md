@@ -6,7 +6,7 @@
   <a href="./coming_soon.md">
     <img src="./images/firmware/marlin-outrun-nf-500.png" alt="Marlin" style="width: 400px; height: auto;">
   </a>
-  <a href="Klipper/TFT50.md">
+  <a href="Klipper/readme.md">
     <img src="./images/firmware/klipper-logo.png" alt="Klipper" style="width: 400px; height: auto;">
   </a>
 </div>
