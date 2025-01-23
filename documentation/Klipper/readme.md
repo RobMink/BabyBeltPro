@@ -14,9 +14,3 @@ Additionally, it is recommended to use a pre-built Klipper image to have many of
   </a>
 
 </div>
-
-# Pre Built Configs:
-These will still require minor tuning based on motors / wiring  
-[Baby Belt Pro with PiTFT50 & Angle switch](../../Software/Firmware/klipper/angle_switch_included)  
-[Baby Belt Pro with BTT TFT35-E3](../../Software/Firmware/klipper/no_angle_switch)  
-[Baby Belt Pro with BTT TFT35-E3 & Angle switch](../../Software/Firmware/klipper/stock_screen_angle_switch)  

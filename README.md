@@ -8,7 +8,7 @@ TODO - better layout for slicer profiles, 30 vs 45.
 
 I guess you can print it in anything other than TPU or PVA.  I print most in PLA or PETG, Underbed must NOT be PLA for heat resistance reasons (ABS, PETG... Ok!)  
 [Guided Firmware \*WIP\*](./documentation/Guided_Firmware_Readme.md)  
-Klipper Documentation: [Here](documentation/Klipper/TFT50)
+Klipper Documentation: [Here](documentation/Klipper/mods/TFT50.md)
 
 *****
 Babybelt is here https://github.com/RobMink/BabyBelt

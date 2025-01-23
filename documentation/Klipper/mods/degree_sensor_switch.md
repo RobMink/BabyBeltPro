@@ -15,25 +15,25 @@
 ## Degree Sensor Switch
 Take the 28AWG wire and strip a small portion of it, solder a wire to each of the outer legs of the switch as seen here.  
 After you have connected them, add your crimp ends then gently twist the two wires to keep things nice and tidy. When you have reached the end of the wires, grab the JST 3 pin Wire housing and insert them in the right two spots if viewing the connector in a "pins up" orientation [see here](#xhp-3-wiring).   
-![Switch Wiring Image](../images/klipper_build/Angle_switch/angle_switch_wiring.png)
+![Switch Wiring Image](../../images/klipper_build/Angle_switch/angle_switch_wiring.png)
 
 ## XHP-3 wiring
 
-![XHP-3 image](../images/klipper_build/Angle_switch/xhp-3_wiring.png)
+![XHP-3 image](../../images/klipper_build/Angle_switch/xhp-3_wiring.png)
 
 ## Installing the switch
-Next, on [Side A](../../STLs/Frame/BBProV25fl_Side-A.stl) if you are using an existing part, take the D2F-5L switch and place it so that the face of the plastic is aligned with the front face of the case and the protruding side of the lever is closer to you.
+Next, on [Side A](../../../STLs/Frame/BBProV25fl_Side-A.stl) if you are using an existing part, take the D2F-5L switch and place it so that the face of the plastic is aligned with the front face of the case and the protruding side of the lever is closer to you.
 
 Front View  
-![Front View](../images/klipper_build/Angle_switch/switch_mount_front_view.png)  
+![Front View](../../images/klipper_build/Angle_switch/switch_mount_front_view.png)  
 Outside View  
-![Outside View](../images/klipper_build/Angle_switch/switch_mount_outside_view.png)  
+![Outside View](../../images/klipper_build/Angle_switch/switch_mount_outside_view.png)  
 Inside View  
-![Inside View](../images/klipper_build/Angle_switch/switch_mount_inside_view.png)
+![Inside View](../../images/klipper_build/Angle_switch/switch_mount_inside_view.png)
 
 Next take the other end of the wire, now crimped and in it's housing and plug it into the main board.  
 We will be using the E0-STOP port highlighted here in green.  
-![SKR mini E3 V3 wiring diagram](../images/klipper_build/Angle_switch/skr-mini-e3-v3-wiring.png)
+![SKR mini E3 V3 wiring diagram](../../images/klipper_build/Angle_switch/skr-mini-e3-v3-wiring.png)
 
 ## printer.cfg changes
 ```jinja
