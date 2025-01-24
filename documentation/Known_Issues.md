@@ -1,8 +1,9 @@
 ﻿# This page is for issues that we have discovered and potential workarounds if available. 
 
-[Motors Turn in the Wrong Direction](#motors-turn-in-the-wrong-direction)  
-[Motors Won't turn in either direction](#motors-wont-turn-in-either-direction)  
-[External Resources](#external-resources)
+- [Motors Turn in the Wrong Direction](#motors-turn-in-the-wrong-direction)  
+- [Motors Won't turn in either direction](#motors-wont-turn-in-either-direction)  
+- [KlipperScreen Issues](#klipperscreen-issues)  
+- [External Resources](#external-resources)
 
 ## Motors Turn in the wrong direction
 
@@ -47,6 +48,11 @@ Marlin Solution:
     Coil pairs need to be together like this
     A1 A2 B1 B2
 ```
+
+## KlipperScreen Issues
+
+### Emergency Stop on Left Menu Instead of Power Options while not printing  
+This is an issue that has been found when using a pre-built image where Klipper / KlipperScreen / etc has been pre-installed. The solution is simply to install [KIAUH](https://github.com/dw-0/kiauh) and use it to remove and re-install KlipperScreen with the default options. 
 
 ## External Resources
 [Re-Pin JST YouTube Video](https://www.youtube.com/watch?v=JPkvHr-mIdc)
