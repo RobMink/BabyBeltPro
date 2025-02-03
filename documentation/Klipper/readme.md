@@ -5,12 +5,7 @@ Additionally, it is recommended to use a pre-built Klipper image to have many of
 
 # Where did you get your kit? / Which Kit do you have?
 
-<div style="display: flex; justify-content: center; align-items: center; gap: 100px; margin-top: 20px; height: auto;">
-  <a href="../coming_soon.md">
-    <img src="../images/kit_sources/oshw-logo-outline.svg" alt="Self Sourced" style="width: 400px; height: auto;">
-  </a>
-  <a href="../coming_soon.md">
-    <img src="../images/kit_sources/fabreeko_text.webp" alt="Fabreeko" style="width: 400px; height: auto;">
-  </a>
+| Self Sourced |                                       Fabreeko                                        | 
+|:------------|:-------------------------------------------------------------------------------------:|
+| [![Self Sourced](../images/kit_sources/oshw-logo-outline.svg)](./kits/self-sourced/readme.md) | [![Fabreeko](../images/kit_sources/fabreeko_text_sm.webp)](./kits/fabreeko/readme.md) |
 
-</div>
