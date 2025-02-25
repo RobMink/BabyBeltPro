@@ -22,7 +22,7 @@ After you have connected them, add your crimp ends then gently twist the two wir
 ![XHP-3 image](../../images/klipper_build/Angle_switch/xhp-3_wiring.png)
 
 ## Installing the switch
-Next, on [Side A](../../../STLs/Frame/BBProV25fl_Side-A.stl) if you are using an existing part, take the D2F-5L switch and place it so that the face of the plastic is aligned with the front face of the case and the protruding side of the lever is closer to you.
+Next, on [Side A](../../../../STLs/Frame/BBProV25fl_Side-A.stl) if you are using an existing part, take the D2F-5L switch and place it so that the face of the plastic is aligned with the front face of the case and the protruding side of the lever is closer to you.
 
 Front View  
 ![Front View](../../images/klipper_build/Angle_switch/switch_mount_front_view.png)  
