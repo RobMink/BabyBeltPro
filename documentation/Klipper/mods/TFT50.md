@@ -21,11 +21,11 @@ Table o' Contents
 ## Printed Part Changes
 There are a few key differences in the assembly of the Baby Belt Pro for Klipper, the main differences are the front screen mount and a sensor switch. 
 
-[Front Screen](../../../../STLs/Frame/Mods/Klipper%20PiTFT50%20Screen/Klipper%20Screen%20Mount.stl)  
-[Screen Cartridge](../../../../STLs/Frame/Mods/Klipper%20PiTFT50%20Screen/Screen%20Cartridge%20-%20BTT%20PI%20TFT50%20v2%20cover.stl)
+[Front Screen](../../../STLs/Mods/Klipper%20PiTFT50%20Screen/Klipper%20Screen%20Mount.stl)  
+[Screen Cartridge](../../../STLs/Mods/Klipper%20PiTFT50%20Screen/Screen%20Cartridge%20-%20BTT%20PI%20TFT50%20v2%20cover.stl)
 
 ## Screen Changes
-Now we get to the fun part! First thing's first, take your [Screen Cartridge](../../../../STLs/Frame/Mods/Klipper%20PiTFT50%20Screen/Screen%20Cartridge%20-%20BTT%20PI%20TFT50%20v2%20cover.stl) and set your heatset inserts into both sides, making sure to put them in as straight as possible.   
+Now we get to the fun part! First thing's first, take your [Screen Cartridge](../../../STLs/Mods/Klipper%20PiTFT50%20Screen/Screen%20Cartridge%20-%20BTT%20PI%20TFT50%20v2%20cover.stl) and set your heatset inserts into both sides, making sure to put them in as straight as possible.   
 Next we grab your BTT Pi TFT50 v2.1 (If you have wheels instead of buttons it should still fit, but this was all tested/validated on a 2.1 with just buttons) and the TFT Cable. insert one end into the screen with the pins facing up and then ensure it is locked in place with the lever down.  
 Then set your screen into the cartridge case cable side first, it is going to fold it a little and that's fine. Once you have the cable side set in, pull the excess of the cable through the opening in the back and gently set the other side down. It should fit fairly flush with 0 force (see below)  
 ![BTT PiTFT in Cartridge](../../images/klipper_build/TFT50/screen-in-cartridge.jpg)  
