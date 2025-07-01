@@ -8,12 +8,12 @@
 ## BOM Differences
 - Add 1 Omron D2F-5L (or similar)
 - Add 2x M2x10 Self Tapping Screws
-- Approximately 160mm of 24AWG stranded wire
+- Approximately 160mm of 22-30AWG stranded wire
 - JST-XH Female Crimp ends (SXH-001T-P0.6 or SXH-001T-P0.6N)
 - JST-XH 3-wire housing (XHP-3)
 
 ## Degree Sensor Switch
-Take the 28AWG wire and strip a small portion of it, solder a wire to each of the outer legs of the switch as seen here.  
+Take the 22-30AWG wire and strip a small portion of it, solder a wire to each of the outer legs of the switch as seen here.  
 After you have connected them, add your crimp ends then gently twist the two wires to keep things nice and tidy. When you have reached the end of the wires, grab the JST 3 pin Wire housing and insert them in the right two spots if viewing the connector in a "pins up" orientation [see here](#xhp-3-wiring).   
 ![Switch Wiring Image](../../images/klipper_build/Angle_switch/angle_switch_wiring.png)
 
