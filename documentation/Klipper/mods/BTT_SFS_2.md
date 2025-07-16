@@ -41,6 +41,8 @@ in a "Pins Up / Wires left" view of the JST connector you will want the followin
 
 This will plug into the Z-Probe Port on the board
 
+![SKR Mini E3 V3 Z Probe Port](../../images/hardware_options/BTT_SFS_V2/BTT_SFS_SKR_E3_V3_Pins.png)
+
 For the SKR Pico you will use one of the existing connectors and because you have multiple places you *Could* put a ground there are different wire orders that are acceptable  
 
 2 Pin Connector 
