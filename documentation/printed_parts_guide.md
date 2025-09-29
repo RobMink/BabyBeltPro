@@ -7,8 +7,6 @@ This guide was written with new builders in mind, so don't be intimidated if thi
 The guide includes images when possible and assumes the user is building from the {Fabreeko build kit w/ link?}. 
 
 How to read this guide:
- - *Printed Parts* will be in italics
- - **Kit Parts** will be bolded
  - Printed Parts will link to the specific file in the GitHub if clicked on
  - Printed part name prefixes include
    - [a] = accent color
@@ -57,7 +55,6 @@ We recommend printing all parts with standard Voron style settings:
 |[BBProV25fl_LinearRailReplacement](../STLs/Gantry/Y/BBProV25fl_LinearRailReplacement.stl)|![BBProV25fl_LinearRailReplacement](./images/printed_parts/Gantry/Y/BBProV25fl_LinearRailReplacement.jpg)|Gantry/Y|Main|No|PLA or Better|
 |[BBProV25fl_RockMonsterNo1YTentionerNut](../STLs/Gantry/Y/BBProV25fl_RockMonsterNo1YTentionerNut.stl)|![BBProV25fl_RockMonsterNo1YTentionerNut](./images/printed_parts/Gantry/Y/BBProV25fl_RockMonsterNo1YTentionerNut.jpg)|Gantry/Y|Main|No|PLA or Better|
 |[LDO Kit - Toolboard Mount v1](../STLs/Gantry/Y/LDO%20Kit%20-%20Toolboard%20Mount%20v1.stl)|![LDO Kit - Toolboard Mount v1](./images/printed_parts/Gantry/Y/LDO%20Kit%20-%20Toolboard%20Mount%20v1.jpg)|Gantry/Y|Main|No|PLA or Better|
-|[BBProV25fl_LinearRailReplacement-MMU Painted Text](../STLs/Gantry/Y/MMU%20&%20AMS/BBProV25fl_LinearRailReplacement-MMU%20Painted%20Text.3mf)|![BBProV25fl_LinearRailReplacement-MMU Painted Text](./images/printed_parts/Gantry/Y/MMU%20&%20AMS/BBProV25fl_LinearRailReplacement-MMU%20Painted%20Text.3mf)|Gantry/Y/MMU & AMS|Main|No|PLA or Better|
 |[[a]_BBProV25fl_RockMonsterNo1YTentionerBody](../STLs/Gantry/Y/[a]_BBProV25fl_RockMonsterNo1YTentionerBody.stl)|![[a]_BBProV25fl_RockMonsterNo1YTentionerBody](./images/printed_parts/Gantry/Y/[a]_BBProV25fl_RockMonsterNo1YTentionerBody.jpg)|Gantry/Y|Accent|No|PLA or Better|
 |[[a]_BBProV25fl_RockMonsterNo1YTentionerIdlerHolder](../STLs/Gantry/Y/[a]_BBProV25fl_RockMonsterNo1YTentionerIdlerHolder.stl)|![[a]_BBProV25fl_RockMonsterNo1YTentionerIdlerHolder](./images/printed_parts/Gantry/Y/[a]_BBProV25fl_RockMonsterNo1YTentionerIdlerHolder.jpg)|Gantry/Y|Accent|No|PLA or Better|
 |[[a]_BBProV25fl_PrintBelt-Frame-A](../STLs/PrintBelt/[a]_BBProV25fl_PrintBelt-Frame-A.stl)|![[a]_BBProV25fl_PrintBelt-Frame-A](./images/printed_parts/PrintBelt/[a]_BBProV25fl_PrintBelt-Frame-A.jpg)|PrintBelt|Accent|No|PLA or Better|
