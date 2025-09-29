@@ -1,5 +1,8 @@
 # Change Log
 
+### 2025-09-29  
+- Added a markdown printer parts guide similar to the old google doc
+
 ### 2025-08-25  
 
 - Created this new fancy pants Change log! (and linked to it from the readme)
