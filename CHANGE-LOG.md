@@ -1,7 +1,7 @@
 # Change Log
 
 ### 2025-09-29  
-- Added a markdown printer parts guide similar to the old google doc
+- Added a markdown printer parts list similar to the old google doc
 
 ### 2025-08-25  
 

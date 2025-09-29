@@ -1,10 +1,8 @@
-# BabyBelt Pro V2 Printed Parts Guide
+# BabyBelt Pro V2 Printed Parts List
 BabyBelt Pro V2 by RobMink
 
 ## Introduction
 Hello! This is the printed parts guide for the BabyBelt Pro V2 by RobMink. 
-This guide was written with new builders in mind, so don't be intimidated if this is your first printer! 
-The guide includes images when possible and assumes the user is building from the {Fabreeko build kit w/ link?}. 
 
 How to read this guide:
  - Printed Parts will link to the specific file in the GitHub if clicked on
