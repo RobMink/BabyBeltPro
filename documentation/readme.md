@@ -9,6 +9,6 @@
 - [degree Sensor Switch](Klipper/mods/degree_sensor_switch.md) * Klipper Only
 
 ## Print Tests
-- [95mm_wide_flat_test.stl](/../STLs/Tools/95mm_wide_flat_test.stl) * Test Y_Offset and first layer squish
-- [30deg EM Flow Test Block.stl](/../STLs/Tools/30deg EM Flow Test Block.stl) * Calibrate Extrusion Multiplier / Flowrate with 30 degree gantry
-- [45deg EM Flow Test Block.stl](/../STLs/Tools/45deg EM Flow Test Block.stl) * Calibrate Extrusion Multiplier / Flowrate with 45 degree gantry
+- [95mm_wide_flat_test.stl](/STLs/Tools/95mm_wide_flat_test.stl) * Test Y_Offset and first layer squish
+- [30deg EM Flow Test Block.stl](/STLs/Tools/30deg%20EM%20Flow%20Test%20Block.stl) * Calibrate Extrusion Multiplier / Flowrate with 30 degree gantry
+- [45deg EM Flow Test Block.stl](/STLs/Tools/45deg%20EM%20Flow%20Test%20Block.stl) * Calibrate Extrusion Multiplier / Flowrate with 45 degree gantry
