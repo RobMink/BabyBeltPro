@@ -18,7 +18,7 @@ Additionally, it is recommended to use a pre-built Klipper image to have many of
 |:---------------|:---------------:|:----:|:------:|
 | SKR Mini E3 V3 | v0.12.0-416 | [klipper_USB.bin](../../Software/Firmware/klipper/binary/SKR%20Mini%20E3%20V3/klipper_USB.bin) | [klipper_uart_PA3_PA2_250000_baud.bin](../../Software/Firmware/klipper/binary/SKR%20Mini%20E3%20V3/klipper_uart_PA3_PA2_250000_baud.bin) |
 
-### Alterate option
+### Alternate option
 
 If you prefer flashing via **DFU mode**, instructions are here:  
 🔗 [3dApothecary-xyz / SKR_Mini_E3_V3_DFU](https://github.com/3dApothecary-xyz/SKR_Mini_E3_V3_DFU)
