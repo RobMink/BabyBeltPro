@@ -29,7 +29,7 @@ Let:
 `A = C / 2`
 
 or  
-`max_height = (1/2) * y_max`  
+`max_height = y_max / 2`  
 
 ---
 
@@ -43,4 +43,4 @@ Let:
 `A = B = C / √2`  
 
 or  
-`max_height = (√2 / 2) * y_max`  
+`max_height = y_max / √2`  
