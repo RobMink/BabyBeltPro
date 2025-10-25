@@ -1,7 +1,7 @@
 ## 🧮 Solving for Max Height
 
 **Preface:**  
-The height of your bed affects the total usable Y-axis range of your printer.
+The height of your bed affects the total usable build_height range of your printer.
 
 Once your bed is leveled and your Y-offset is properly configured:
 
