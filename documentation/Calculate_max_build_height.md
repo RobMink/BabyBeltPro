@@ -1,4 +1,3 @@
-@ -0,0 +1,52 @@
 ## 🧮 Solving for Max Height
 
 **Preface:**  
