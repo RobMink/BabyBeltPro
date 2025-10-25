@@ -31,9 +31,6 @@ Let:
 or  
 `max_height = (1/2) * y_max`  
 
-**Ratio:**  
-`A : C = 1 : 2`
-
 ---
 
 ### 45° Gantry
@@ -47,6 +44,3 @@ Let:
 
 or  
 `max_height = (√2 / 2) * y_max`  
-
-**Solving for A:**  
-`A = C / √2`  
