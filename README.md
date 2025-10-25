@@ -43,6 +43,7 @@ A good rule of thumb is if you only ever plan to print PLA or TPU, your Bed/Unde
 | [Printcepts Website](https://www.patreon.com/Printcepts)                                                                                          | Find out about other Printcepts Projects                            |
 | [BOM](https://babybelt.pro/bom)                                                                                                                   | Bill of Materials (should you want to self-source)                  |
 | [Belt Assembly Instructions](https://docs.google.com/document/d/13pu9LH_nKmDJY-V2nZXMY8CHur7INB6-9V5sKlAuCuE/edit?tab=t.0#heading=h.e01bdd2to5po) | How to Make your own custom Belt!                                   |
+| [Calculate Max Build_Height](./documentation/Calculate_max_build_height.md)																		| Updating Y-axis max_position and using it to calculate max_height		|
 | [Patreon](https://www.patreon.com/Printcepts)                                                                                                     | Help support Projects like this one!                                |
 | [YouTube (RobMink)](https://www.youtube.com/c/robmink)                                                                                            | Current home of Printcepts Video Content                            |
 | [Discord](https://discord.gg/NTDZMsCwXh)                                                                                                       | Join us for fun times or help with your build                       |
