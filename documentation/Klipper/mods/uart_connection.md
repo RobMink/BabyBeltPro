@@ -19,7 +19,7 @@ TX => RX
 On a Raspberry Pi 3/4 you will be using pin 8 as TX and pin 10 as RX  
 and on the SKR Mini E3 V3, you will need to use two of the TFT pins (see diagram)  
 
-![Diagram of Raspberry Pi Connecting via UART to SKR Mini E3 V3](../../images/hardware_options/UART_Connection/oversized_uart_diagram.png)
+![Diagram of Raspberry Pi Connecting via UART to SKR Mini E3 V3](../../images/hardware_options/UART_Connection/oversized_uart_diagram_labelled.png)
 
 
 ## Klipper changes
