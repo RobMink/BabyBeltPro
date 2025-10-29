@@ -1,5 +1,9 @@
 # Change Log
 
+### 2025-10-29  
+- Added ideaMaker profile files to use klipper macros
+- updated ideaMaker profiles readme and change it to a md file to display better
+
 ### 2025-09-29  
 - Added a markdown printer parts list similar to the old google doc
 
