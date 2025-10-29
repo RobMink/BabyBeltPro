@@ -8,19 +8,21 @@ Table o' Contents
 - [Pi Changes](#pi-changes)
 
 ## Wiring
-Grab yourself a pair of wires (I used 26 AWG) roughly around 16cm in length  
+Grab yourself a trio of wires (I used 26 AWG) roughly around 16cm in length  
 and crimp both ends as Female Dupont connectors.
 (You can also use individual female to female jumper wires if you have them from a breadboard kit)  
 
 Next you will need to locate the pins in question and Remember that pins go to the opposite signal on either end of the cable.    
-RX => TX  
-TX => RX
+TX  => RX  (Orange)  
+RX  => TX  (Yellow)  
+GND => GND (Green)  
 
-On a Raspberry Pi 3/4 you will be using pin 8 as TX and pin 10 as RX  
-and on the SKR Mini E3 V3, you will need to use two of the TFT pins (see diagram)  
 
-![Diagram of Raspberry Pi Connecting via UART to SKR Mini E3 V3](../../images/hardware_options/UART_Connection/oversized_uart_diagram_labelled.png)
+On a Raspberry Pi 3/4 you will be using pin 6 as GND (Green), pin 8 as TX (Orange), and pin 10 as RX(Yellow).
+and on the SKR Mini E3 V3, you will need to use three of the TFT pins (see diagram)  
 
+![Diagram of Raspberry Pi Connecting via UART to SKR Mini E3 V3](../../images/hardware_options/UART_Connection/oversized_uart_diagram_labelled.png)  
+**Previous versions of this guide used only two wires (no ground).  Some users reported issues with serial connectivity without the interfaces sharing a common ground.  Thank you to discord user @Sturn for the find!
 
 ## Klipper changes
 * Instructions are specific to SKR Mini E3 V3 with regard to Flashing
