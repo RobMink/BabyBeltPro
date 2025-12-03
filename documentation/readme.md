@@ -7,6 +7,7 @@
 - [BTT TFT35-E3](Klipper/mods/TFT35-E3.md) * Stock Screen - Used in Marlin Mode on Klipper
 - [BTT PiTFT50 Screen](Klipper/mods/TFT50.md) * Klipper Only
 - [degree Sensor Switch](Klipper/mods/degree_sensor_switch.md) * Klipper Only
+- [Raspberry Pi Boot/Splash](../Software/RaspberryPi/plymouth) * Raspberry Pi and other debian type systems
 
 ## Print Tests
 - [95mm_wide_flat_test.stl](/STLs/Tools/95mm_wide_flat_test.stl) * Test Y_Offset and first layer squish

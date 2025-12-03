@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=bbpro
+Description=Theme for the BabyBelt Pro
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/bbpro
+ScriptFile=/usr/share/plymouth/themes/bbpro/bbpro.script
