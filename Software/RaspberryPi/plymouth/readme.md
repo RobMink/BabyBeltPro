@@ -29,10 +29,12 @@ There are two ways of doing this, the easy **DANGEROUS** way, and the harder, sl
 
 ##### Easy Way:
 From your RaspberryPi, login via SSH or local terminal and run:
+
 `curl -s https://raw.githubusercontent.com/RobMink/BabyBeltPro/main/Software/RaspberryPi/plymouth/install.sh | bash`
 
 ##### Slightly Harder way:
 Copy `install.sh` from this directory to your RaspberryPi, then 
+
 `bash ./install.sh`
 
 ## Troubleshooting
