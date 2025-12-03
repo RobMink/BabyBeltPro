@@ -33,7 +33,7 @@ sudo sed -i ' 1 s/.*/&  quiet splash plymouth.ignore-serial-consoles logo.nologo
 sudo sed -i '/disable_overscan=1/a disable_splash=1' /boot/firmware/config.txt
 
 echo "Cloning Plymouth theme repository..."
-git clone --no-checkout https://github.com/hanzov69/BabyBeltPro.git ~/bbprotmp
+git clone --no-checkout https://github.com/RobMink/BabyBeltPro.git ~/bbprotmp
 cd ~/bbprotmp
 git sparse-checkout init --no-cone
 git sparse-checkout set Software/RaspberryPi/plymouth/
