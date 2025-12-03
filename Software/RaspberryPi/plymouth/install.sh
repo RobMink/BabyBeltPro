@@ -1,6 +1,5 @@
 #!/bin/bash
-set -e
-
+# BabyBeltPro Plymouth Theme Installer for Raspberry Pi
 exists () { (
     IFS=:
     for d in $PATH; do
@@ -43,6 +42,8 @@ sudo cp -r ~/bbprotmp/Software/RaspberryPi/plymouth/bbpro /usr/share/plymouth/th
 
 echo "Setting Plymouth theme to BabyBeltPro..."
 sudo plymouth-set-default-theme -R bbpro
+echo "Cleaning up temporary files..."
+rm -rf ~/bbprotmp
 echo "Need to reboot for changes to take effect."
-read -e -p "Reboot now? Y/N" choice
+read -e -p "Reboot now? (Y/N) " choice
 [[ "$choice" == [Yy]* ]] && sudo shutdown -r now || echo "Shutdown aborted. Please remember to reboot later."
