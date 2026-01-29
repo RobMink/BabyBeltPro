@@ -733,7 +733,7 @@ Having a heated bed is completely optional.  This step may vary depending on how
 
 - Find the [[HT]_BBProV25fl_UnderbedOrBed](../STLs/ZBeltDrive/[HT]_BBProV25fl_UnderbedOrBed.stl) part. Flip it channel side up, insert a **M3x20 screw** into the hole in each of the 4 wings.  Spin a **M3 nut** on the bottom of each screw.
 
-<img src="./images/printed_parts/ZBeltDrive/[HT]_BBProV25fl_UnderbedOrBed.jpg" width="500">
+<img src="./images/printed_parts/ZBeltDrive/%5BHT%5D_BBProV25fl_UnderbedOrBed.jpg" width="500">
 
 - Find the heatbed and heatbed thermistor from the electronics box.
 - Thread the thermistor into the hole in the middle of the bottom side of the heatbed.
