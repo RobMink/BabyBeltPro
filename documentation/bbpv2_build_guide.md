@@ -16,7 +16,7 @@ Jump To...
         - [Power Switch and Jack](#power-switch-and-jack)
         - [Screen Mount](#screen-mount)
         - [Extruder](#extruder)
-        - [Belt Tensioners](#belt-tensioners)
+        - [Belt Tensioner](#belt-tensioners)
         - [Rollers](#rollers)
         - [Z-Motor](#z-motor)
         - [Scraper Install](#scraper-install)
@@ -47,9 +47,9 @@ There are a few decisions that have an impact on the parts that need purchased a
 
 1. Hotend Choice - Bambu X1 or Revo
     - A Bambu X1 style hotend is the "default" included in both commercial kits and is a cheaper solution.
-        - To use a bambu X1 style hotend print the bambu carrage parts, purchase a X1 style hotend such as the [Triangle Lab TZ 2.0 for Bambu X1](https://trianglelab.net/products/tz-20-hotend-for-bambu-lab-x1-p1p?VariantsId=11766), and a 25mm 24v fan for parts cooling.  If buying a kit only the printed parts are needed outside of what is included.
-    - A Revo hotend can also be used.  This is a more expensive hotend but some folks opt for this solution for ease of nossle changes and the [Revo Belt & Non Planar Nozzles](http://e3d-online.com/products/revo-belt-nozzles).
-        - To use a Revo hotend print the revo carrage parts, purchase a Revo Micro 24v full hotend kit, a revo belt & non-planar nozzle, and a 3010 brusshless 24v fan for parts cooling.
+        - To use a bambu X1 style hotend print the bambu carriage parts, purchase a X1 style hotend such as the [Triangle Lab TZ 2.0 for Bambu X1](https://trianglelab.net/products/tz-20-hotend-for-bambu-lab-x1-p1p?VariantsId=11766), and a 25mm 24v fan for parts cooling.  If buying a kit only the printed parts are needed outside of what is included.
+    - A Revo hotend can also be used.  This is a more expensive hotend but some folks opt for this solution for ease of nozzle changes and the [Revo Belt & Non Planar Nozzles](http://e3d-online.com/products/revo-belt-nozzles).
+        - To use a Revo hotend print the revo carriage parts, purchase a Revo Micro 24v full hotend kit, a revo belt & non-planar nozzle, and a 3010 brushless 24v fan for parts cooling.
 
 1. Bowden to carriage connection - Coupler or ECAS
     - The default carriage files are for a bowden coupler shown below.  If you are self sourcing or have one of these laying around use the [*YCar_Bam_SideA*](../STLs/Gantry/Carriage/Bambu/[a]_BBProV25fl_YCar_Bam_SideA.stl) and [*YCar_Bam_SideB*](../STLs/Gantry/Carriage/Bambu/[a]_BBProV25fl_YCar_Bam_SideB.stl) in the Bambu carriage folder
@@ -79,14 +79,14 @@ There are a few decisions that have an impact on the parts that need purchased a
 - Small Flathead Screwdriver
 - Adjustable Wrench
 - Wire Cutters
-- File, knife, and/or deburring tool (Good for makling slight adjustments to plastice parts if needed.)
+- File, knife, and/or deburring tool (Good for making slight adjustments to plastic parts if needed.)
 
 [Jump to Top](#top)
 
 ## Printed and Made Parts
 - Fabric Belt - Included in LDO/Fabreeko kits OR follow the [Fabric Belt Guide](belt_guide.md) to make one.
 - Printed Parts - Check out the [Printed Parts Guide](printed_parts_guide.md) for parts description and print settings.
-    - NOTE: Print EITHER the Bambu (LDO/Fabreeko kits) OR the Revo carrage parts.
+    - NOTE: Print EITHER the Bambu (LDO/Fabreeko kits) OR the Revo carriage parts.
     - NOTE: [Printed Parts Guide](printed_parts_guide.md) assumes BOM parts. Mods like SFS of TFT50 will require some additional/replaced parts.
 
 [Jump to Top](#top)
@@ -197,7 +197,7 @@ Next we will install the screen.
 
 <img src="./images/fabreeko_kit_build/14.jpg" width="500"/>
 
-- Slide the screen into the inside of the [*Screenmount*](../STLs/Frame/%5Bs%5D_BBProV24fl_Screenmount.stl).  Using the holes in the bottom to allow your driver to reach, secure from the back with 4 M3x10 screws.  Do not fully tighting the screws until you have all 4 in.  Make sure the knob does not bind in click mode as this will happen if the screen is not aligned properly.Use 4, **M3x10mm** to connect the screen to the 
+- Slide the screen into the inside of the [*Screenmount*](../STLs/Frame/%5Bs%5D_BBProV24fl_Screenmount.stl).  Using the holes in the bottom to allow your driver to reach, secure from the back with 4 M3x10 screws.  Do not fully tighten the screws until you have all 4 in.  Make sure the knob does not bind in click mode as this will happen if the screen is not aligned properly.  Use 4, **M3x10mm** to connect the screen to the 
 
 <img src="./images/fabreeko_kit_build/15.jpg" width="500"/>
 
@@ -367,13 +367,13 @@ The main body or "tub" is assembled.
 ### X Carriage
 
 >[!CAUTION]
-> DO NOT REMOVE THE RUBBER STOPPERS from the linear rail until it is necessary.  When the stoppers need to be removed to attach the rail move them down a few holes.  Be sure the carrage stays on the rail or the bearing balls will fall out making a mess and the installer miserable. 
+> DO NOT REMOVE THE RUBBER STOPPERS from the linear rail until it is necessary.  When the stoppers need to be removed to attach the rail move them down a few holes.  Be sure the carriage stays on the rail or the bearing balls will fall out making a mess and the installer miserable. 
 
 
 >[!Note]
 > We highly recommend lubricating **all** the linear rail bearings (visible in the photo below) using something like Mobil EP1 or EP2 grease prior to installation. Nero3D has a [great guide providing explanations and how-tos for this](https://youtu.be/UYvhYjkBFTY?si=frlAKNLAvElEVHFv) 
 
-- Position [*X-Carraige*](../STLs/Gantry/X/BBProV25fl_X-Carraige.stl)  line up the **smooth idlers** with the indicated holes and secure in place with 2, **M3x20 screws**
+- Position [*X-Carriage*](../STLs/Gantry/X/BBProV25fl_X-Carriage.stl)  line up the **smooth idlers** with the indicated holes and secure in place with 2, **M3x20 screws**
 
 <img src="./images/fabreeko_kit_build/90.jpg" width="400"/>
 
@@ -383,22 +383,22 @@ The main body or "tub" is assembled.
 
 - Put the last two MGN7 rails into the  [*XRailSpacerV2*](../STLs/Tools/[any]_BBPro_XRailSpacerV2[x2].stl).  This will help hold the rails in the proper orientation.
 
-<img src="./images/build_guide/x-carrage-1.png" width="700"/>
+<img src="./images/build_guide/x-carriage-1.png" width="700"/>
 
 
 - Attach the gantry to the linear rails using 8 **M2x6 screws** (4 for each linear rail) 
 
-<img src="./images/build_guide/x-carrage-2.png" width="600"/>
+<img src="./images/build_guide/x-carriage-2.png" width="600"/>
 
 - Loosely attach [*X_RailMount_Side-A*](../STLs/Gantry/X/%5Ba%5D_BBProV25fl_XrailMount-SideA.stl) and [*X_RailMount_Side-B*](../STLs/Gantry/X/%5Ba%5D_BBProV25fl_XrailMount-SideB.stl) to the linear rails using 4 **M2x8mm screws** and 4 **M2 Nuts** on each side.
 
 - Slide the  [*XRailSpacerV2*](../STLs/Tools/[any]_BBPro_XRailSpacerV2[x2].stl) out against the X_RailMounts to hole the rails square and properly spaced while tightening the nuts.
 
-<img src="./images/build_guide/x-carrage-3.png" width="600"/>
+<img src="./images/build_guide/x-carriage-3.png" width="600"/>
 
 - 2025 revision parts shown below.
 
-<img src="./images/build_guide/x-carrage-4.png" width="600"/>
+<img src="./images/build_guide/x-carriage-4.png" width="600"/>
 
 [Jump to Top](#top)
 
@@ -410,7 +410,7 @@ The main body or "tub" is assembled.
 <img src="./images/fabreeko_kit_build/59.jpg" width="400"/>
 <img src="./images/fabreeko_kit_build/60.jpg" width="300"/>
 
-<img src="./images/build_guide/carrage-1.png" width="700"/>
+<img src="./images/build_guide/carriage-1.png" width="700"/>
 
 - Orient the fan so that the air flow will move towards the air duct on the fan mount, then secure where indicated with zip ties 
 
@@ -421,7 +421,7 @@ The main body or "tub" is assembled.
 <img src="./images/build_guide/part-fan-1.png" width="500"/>
 
 >[!CAUTION]
-> DO NOT REMOVE THE RUBBER STOPPERS from the linear rail until it is necessary.  When the stoppers need to be removed to attach the rail move them down a few holes.  Be sure the carrage stays on the rail or the bearing balls will fall out making a mess and the installer miserable. 
+> DO NOT REMOVE THE RUBBER STOPPERS from the linear rail until it is necessary.  When the stoppers need to be removed to attach the rail move them down a few holes.  Be sure the carriage stays on the rail or the bearing balls will fall out making a mess and the installer miserable. 
 
 
 >[!Note]
@@ -480,7 +480,7 @@ through the hole shown at the top
 [Jump to Top](#top)
 
 ### Hotend Electronics
-- Locate the hotend heater cartrage, thermistor, and clip. 
+- Locate the hotend heater cartridge, thermistor, and clip. 
 
 <img src="./images/fabreeko_kit_build/81.jpg" width="500"/>
 
@@ -539,7 +539,7 @@ through the hole shown at the top
 
 ### Y Axis
 
-- Attach the linear rail of the Y axis to the inside of the Y Tensioner using 2, **M2x8mm screws** and 2, **M2 Nuts**.  Insert the screws in on the rail side.  If your Hexkey/driver is long enough go through the holes on the opposite side to get them tight.
+- Attach the linear rail of the Y axis to the inside of the Y Tensioner using 2, **M2x8mm screws** and 2, **M2 Nuts**.  Insert the screws in on the rail side.  If your Hex key/driver is long enough go through the holes on the opposite side to get them tight.
 
 - Attach the linear rail of the Y axis to the X gantry as shown below, using 2, **M2x8mm screws** and 2, **M2 Nuts**
 
@@ -585,10 +585,10 @@ through the hole shown at the top
 
 <img src="./images/fabreeko_kit_build/104.jpg" width="600"/>
 
-- Install the **pulley** onto the motor shaft so thre is about 7.5mm between the motor block and toothed section of the pulley. Also make sure one **grub screw** is on the flat face of the shaft.
+- Install the **pulley** onto the motor shaft so there is about 7.5mm between the motor block and toothed section of the pulley. Also make sure one **grub screw** is on the flat face of the shaft.
 
 <img src="./images/fabreeko_kit_build/105.jpg" width="220"/>
-<img src="./images/build_guide/nema11-pully-1.png" width="400">
+<img src="./images/build_guide/nema11-pulley-1.png" width="400">
 <img src="./images/fabreeko_kit_build/106.jpg" width="400"/>
 
 - Install the motor onto the X gantry in the position that is closest to the hotend using 4, **M2.5x8mm** screws. Align the wires from the motor as shown in the picture. There are openings on the opposite side of the gantry to allow allen keys to reach the screws.
@@ -624,7 +624,7 @@ through the hole shown at the top
 ### X Axis GT2 Belt
 
 >[!Caution]
->The belt ends will hang loose on the outside of the the Railmounts for this step, belt will be attached with the tensioners later.
+>The belt ends will hang loose on the outside of the the Rail mounts for this step, belt will be attached with the tensioners later.
 
 - Run the belt for the X axis with teeth facing up as seen below, through the slots in each of the rail mounts.
 
@@ -642,7 +642,7 @@ through the hole shown at the top
 
 <img src="./images/build_guide/x-axis-4.png" width="200"/>
 
-- On the right side, paying attention the the orentation of the belt teeth, feed the belt between the two pieces and out through the opening nearest the screws on the [*X_Pivot Clamp*](../STLs/Gantry/X/%5Ba%5D_BBProV25fl_XPivotClamp(2x).stl).  Pull 5 or 6 teeth worth of belt through and tighten the 2 **M3x10 screws** to secure the belt.
+- On the right side, paying attention the the orientation of the belt teeth, feed the belt between the two pieces and out through the opening nearest the screws on the [*X_Pivot Clamp*](../STLs/Gantry/X/%5Ba%5D_BBProV25fl_XPivotClamp(2x).stl).  Pull 5 or 6 teeth worth of belt through and tighten the 2 **M3x10 screws** to secure the belt.
 
 <img src="./images/build_guide/x-axis-5.png" width="400"/>
 
@@ -650,7 +650,7 @@ through the hole shown at the top
 
 <img src="./images/build_guide/x-axis-6.png" width="400"/>
 
-- Repeat feeding the belt through loosely on the left side, again paying attention the the orentation of the belt teeth.  Pull most of the remaining belt through.
+- Repeat feeding the belt through loosely on the left side, again paying attention the the orientation of the belt teeth.  Pull most of the remaining belt through.
 
 <img src="./images/build_guide/x-axis-7.png" width="400"/>
 
@@ -662,7 +662,7 @@ through the hole shown at the top
 
 - Pull any remaining slack from the belt through the left side tensioner.  
 
-- Move the gantry back and forth slightly on the x axis to be sure the belt is seated on the pully.
+- Move the gantry back and forth slightly on the x axis to be sure the belt is seated on the pulley.
 
 - Give the belt another tug to get the last bit of slack on the left side and tighten the **M3x10 screws**.
 
@@ -700,7 +700,7 @@ through the hole shown at the top
 
 <img src="./images/build_guide/gantry-mount-2.png" width="400"/>
 
-- Slide the gantry over top of the frame, line up the upper gantry mounting holes wiht the top (Pointy end) holes on the gantry. Install a **M3x20 screw** into this hole on each side.  Do not tighten completely.
+- Slide the gantry over top of the frame, line up the upper gantry mounting holes with the top (Pointy end) holes on the gantry. Install a **M3x20 screw** into this hole on each side.  Do not tighten completely.
 
 <img src="./images/build_guide/gantry-mount-3.png" width="400"/>
 
@@ -720,7 +720,7 @@ through the hole shown at the top
 
 ## Heated Bed
 
-Having a heated bed is completely optional.  This step may vary depending on how the bed is sourced.  Three options will be listed out 1) No bed heater, 2) LDO Kit , 3) Fabreeko Kit.  Assemble the bed using the approiate steps below and then set it aside to complete most of the wiring before putting the bed and belt in place and covering everything up.
+Having a heated bed is completely optional.  This step may vary depending on how the bed is sourced.  Three options will be listed out 1) No bed heater, 2) LDO Kit , 3) Fabreeko Kit.  Assemble the bed using the appropriate steps below and then set it aside to complete most of the wiring before putting the bed and belt in place and covering everything up.
 
 >[!NOTE]
 >Newer versions of the bed plates have holes and nut capture reliefs in each of the 4 wings the bed plate uses to rest in the tub.  These screws are used to level the bed if needed.  A **M3x20 screw** is placed through the hole pointing down, a **M3 nut** is spun on to the bottom of the screw.  The nut will fit into the capture relief and as the screw is turned to the right the nut moves up the screw lifting that section of the bed up.
@@ -766,7 +766,7 @@ Having a heated bed is completely optional.  This step may vary depending on how
 >There can be a lot of variation for running wires depending on how parts were sourced.  The most important piece is connecting the right component to the right connector on the board.
 
 ### Control Board and Axis Diagrams
-This is the connection diagram for the reccommended BTT SKR Mini E3 control board.  The pinout, except for the screen is the same for Marlin or Klipper and all provided configs assume this diagram is followed. 
+This is the connection diagram for the recommended BTT SKR Mini E3 control board.  The pinout, except for the screen is the same for Marlin or Klipper and all provided configs assume this diagram is followed. 
 >[!CAUTION]
 >Take a moment to ensure the 3 jumpers are installed as noted on the diagram. 
 <img src="./images/build_guide/skr_mini_e3_wiring.png" width="800"/>
@@ -778,7 +778,7 @@ In this image the Motors and Axis are labeled in color match to the pinout diagr
 
 - The screen, Z axis motor, and extruder motor wires are already in the tub.  
 - Connect the Z axis motor to the port labeled with the green Z.
-- Connect the extruder motor to the port labeled wiht the pink E.
+- Connect the extruder motor to the port labeled with the pink E.
 - The screen wire is going from the RS232 port on the screen to the TFT header on the board with the single wire in the bundle on the pin closest to the center of the printer.
 
 ### Toolhead wiring
@@ -787,7 +787,7 @@ In this image the Motors and Axis are labeled in color match to the pinout diagr
 
 - LDO builders have the easy way. Take the pre-made printhead cable, wrap the nylon cable sleeve around the bundle, connect the single connector end to the LDO toolboard, then feed the wires through the opening on the right side of the screen mount going through the zip tie.
 
-- Fabreeko Kit builders will have a similar task but with seperate sets of wires.
+- Fabreeko Kit builders will have a similar task but with separate sets of wires.
 
 - Be sure to allow enough slack for the toolhead to move in all directions and that the cable sleeve enters into the tub to keep things neat.
 
@@ -806,11 +806,11 @@ In this image the Motors and Axis are labeled in color match to the pinout diagr
 
 - Use a couple zip ties to join the wires together for a tidy look.
 
-- Make sure the wire path allows for full unrestriected range of motion on the x axis and then snug up the zip tie holding the wires to the screen mount.
+- Make sure the wire path allows for full unrestricted range of motion on the x axis and then snug up the zip tie holding the wires to the screen mount.
 
 - Connect the X and Y motor cables to the proper ports on the control board.
 
-- At this point everything but the heatbed heater and thermistor should be connected.  Verify the connections once more and do any cable managment necessary.
+- At this point everything but the heatbed heater and thermistor should be connected.  Verify the connections once more and do any cable management necessary.
 >[!CAUTION]
 >Try to keep all of the wires nice and low.  The belt will be just below the bottom of the curved channels on each side of the tub.  Avoid having any wires sticking up in the area to prevent them from being damaged or tangled with the belt while it moves.
 

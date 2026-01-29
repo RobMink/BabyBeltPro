@@ -26,33 +26,30 @@ Printcepts started with a concept of taking parts you had lying around and makin
 
 
 ## Printing your parts
-0.2 MM layer height, 5 walls, 18% or so infill.  Parts say if they need support or number count.
 
-When Printing your parts, you need a stiff material like PLA or PETG; We love the variety and range of PLA filaments, making each Baby Belt Pro unique!   
-The only part at the time of writing that *CANNOT* be PLA, is the Bed/Underbed as it requires more heat resistance.  
-A good rule of thumb is if you only ever plan to print PLA or TPU, your Bed/Underbed can be PETG. However, if printing in PETG, it is **HIGHLY** suggested to use ABS or ASA.
+Refer to our [Printed Parts Guide](/documentation/printed_parts_guide.md)
 
 ## Resources
 
 | Links                                                                                                                                             | Description                                                         |
 |---------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------|
-| [Build Instructions](https://docs.google.com/document/d/1dYbbvt_AkUhesFwPe-TYXSqsQAuzoHFzMLlQnfHJwGQ/edit?usp=sharing)                            | How to Build (Google Doc) *HISTORICAL*                              |
-| [Updated Build Guide](./documentation/Guided_Firmware_Readme.md)                                                                                  | "guided" assembly (here on this repo!                               |
-| [Printed Parts List](./documentation/printed_parts_guide.md)                                                                                       | Listing of printed parts with print reccommendations                |
-| [Mods](.documentation/Klipper/mods/)                                                                                                              | Current Mods for the BabyBelt Pro (Includes information on Klipper) |
-| [Printcepts Website](https://www.patreon.com/Printcepts)                                                                                          | Find out about other Printcepts Projects                            |
-| [BOM](https://babybelt.pro/bom)                                                                                                                   | Bill of Materials (should you want to self-source)                  |
-| [Belt Assembly Instructions](./documentation/belt_guide.md) | How to Make your own custom Belt!                                   |
-| [Calculate Max Build_Height](./documentation/Calculate_max_build_height.md)																		| Updating Y-axis max_position and using it to calculate max_height		|
-| [Patreon](https://www.patreon.com/Printcepts)                                                                                                     | Help support Projects like this one!                                |
-| [YouTube (RobMink)](https://www.youtube.com/c/robmink)                                                                                            | Current home of Printcepts Video Content                            |
-| [Discord](https://discord.gg/NTDZMsCwXh)                                                                                                       | Join us for fun times or help with your build                       |
-| [Facebook](https://www.facebook.com/groups/632751915097010)                                                                                       | Kind of Inactive                                                    |
-| [Original BabyBelt Project](https://github.com/RobMink/BabyBelt)                                                                                  | If you are looking for the Original Baby Belt, check here           |
-| [GoFundMe for Belt Support in OrcaSlicer](https://www.gofundme.com/f/get-3d-belt-printers-into-orca-slicer)                                       | We and the belt printing community would love this to be a reality  |
+| [BabyBelt Pro v2.5 Build Kit by LDO and West3D](https://west3d.com/products/baby-belt-pro-v2-5-complete-diy-belt-printer-kit-by-ldo-systems-and-west3d) | Purchase an all-in-one kit to get your BabyBelt built! * **
+| [Documentation Index](./documentation/readme.md)             |  Listing of most recent guides                      |
+| [Mods](documentation/Klipper/mods/)                          | Current Mods for the BabyBelt Pro (Includes information on Klipper) |
+| [Printcepts Website](https://www.printcepts.com/)            | Find out about other Printcepts Projects                            |
+| [Patreon](https://www.patreon.com/Printcepts)                | Help support Projects like this one!                                |
+| [YouTube (RobMink)](https://www.youtube.com/c/robmink)       | Current home of Printcepts Video Content                            |
+| [Discord](https://discord.gg/NTDZMsCwXh)                     | Join us for fun times or help with your build                       |
+| [Facebook](https://www.facebook.com/groups/632751915097010)  | Kind of Inactive      |
+| [Original BabyBelt Project](https://github.com/RobMink/BabyBelt)       | If you are looking for the Original Baby Belt, check here           |
+| [GoFundMe for Belt Support in OrcaSlicer](https://www.gofundme.com/f/get-3d-belt-printers-into-orca-slicer)                             | We and the belt printing community would love this to be a reality  |
+
+\* - Printed Parts not included
+
+\** - Kit Electronics are fully functional with Marlin firmware.  For Klipper installs a user supplied compute module (pi, etc.) is required.
 
 Hey we're now making it easier to see what changed and when!  
-Check out our [Change log](CHANGE-LOG.md)!
+Check out our [Change log](/documentation/CHANGE-LOG.md)!
 
 Non-commercial, Att.  
 Printcepts  
