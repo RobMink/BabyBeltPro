@@ -1,11 +1,5 @@
 ﻿# Documentation Index
 
-<style>
-  table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-  }
-</style>
 | Document | Description|
 |-----------------------------------------------------|-|
 | [BBPv2 Build Guide](./bbpv2_build_guide.md)       |START HERE!!!! 
