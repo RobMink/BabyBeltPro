@@ -25,7 +25,7 @@ We recommend printing all parts with standard Voron style settings:
 - Extrusion width: 0.4mm, forced
 - Infill percentage: 40%
 - Infill type: grid, gyroid, honeycomb, triangle, or cubic
-- Wall count: 4
+- Wall count: 4, use 5 walls on [[a,s]_BBProV25fl_Roller[x2]](../STLs/ZBeltDrive/[a,s]_BBProV25fl_Roller[x2].stl)
 - Solid top/bottom layers: 5
 
 
