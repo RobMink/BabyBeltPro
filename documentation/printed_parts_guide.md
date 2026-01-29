@@ -13,7 +13,7 @@ How to read this guide:
 
 ## Printed Parts
 ### Printing Parts
-Most of the parts of this kit can be printed out of normal PLA, allowing for a wide range of colors and stylistic choices! The parts that shouldn't be printed out of PLA are listed below. 
+Most of the parts of this kit can be printed out of normal PLA, allowing for a wide range of colors and stylistic choices! The parts that shouldn't be printed out of PLA are listed below. A good rule of thumb is if you only ever plan to print PLA or TPU, your Bed/Underbed can be PETG. However, if printing in PETG, it is **HIGHLY** suggested to use ABS or ASA. 
 
 - [*NEMA17_ZGear*](../STLs/ZBeltDrive/[a]_BBProV25fl_Nema17_ZGear.stl)
 - [*Roller_ZGear*](../STLs/ZBeltDrive/[a]_BBProV25fl_Roller_ZGear.stl)
@@ -25,7 +25,7 @@ We recommend printing all parts with standard Voron style settings:
 - Extrusion width: 0.4mm, forced
 - Infill percentage: 40%
 - Infill type: grid, gyroid, honeycomb, triangle, or cubic
-- Wall count: 4
+- Wall count: 4, use 5 walls on [[a,s]_BBProV25fl_Roller[x2]](../STLs/ZBeltDrive/[a,s]_BBProV25fl_Roller[x2].stl)
 - Solid top/bottom layers: 5
 
 
