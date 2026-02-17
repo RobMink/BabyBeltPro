@@ -3,7 +3,7 @@
 </div>
 
 <div style="display: flex; justify-content: center; gap: 100px; margin-top: 20px;">
-  <a href="./coming_soon.md">
+  <a href="Marlin/readme.md">
     <img src="./images/firmware/marlin-outrun-nf-500.png" alt="Marlin" style="width: 400px; height: auto;">
   </a>
   <a href="Klipper/readme.md">
