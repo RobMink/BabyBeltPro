@@ -242,6 +242,8 @@ Next use 2, **M3x10mm screws** and 2, **M3 Nuts** to attach the screen mount wit
 
 <img src="./images/fabreeko_kit_build/27.jpg" width="300"/>
 
+<img src="./images/build_guide/bowden-install-2.png" width="300"/>
+
 [Jump to Top](#top)
 
 ### Belt Tensioners
