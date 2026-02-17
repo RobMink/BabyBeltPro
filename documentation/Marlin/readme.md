@@ -13,8 +13,9 @@ After 30 seconds or so the red light will change, the screen should now say Baby
 
 
 ## TroubleShooting Flashing the Firmware
-	If you don't get any picture on the screen but you get a red light on the main board, verify the screen is plugged in correctly. 
-	If you get Ender3 on the screen and no “No Printer Connected” you did not flash.  Check the SD card for a firmware.cur file.  If you still have firmware.bin try formatting the card or a different card, then turn the printer off, install the card, power up and try again.
+If you don't get any picture on the screen but you get a red light on the main board, verify the screen is plugged in correctly. 
+
+If you get Ender3 on the screen and no “No Printer Connected” you did not flash.  Check the SD card for a firmware.cur file.  If you still have firmware.bin try formatting the card or a different card, then turn the printer off, install the card, power up and try again.
 	
 
 
