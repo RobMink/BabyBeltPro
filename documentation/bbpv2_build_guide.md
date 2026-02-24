@@ -23,11 +23,11 @@ Jump To...
     - [Gantry](#Gantry)
         - [X Carriage](#X-Carriage)
         - [Y Carriage](#Y-Carriage)
+            - [Bowden Connector](#bowden-connector)
         - [Hotend Electronics](#Hotend-Electronics)
         - [Heatbreak Fan](#Heatbreak-fan)
         - [Y Tensioner](#Y-Tensioner)
         - [Y Axis](#Y-Axis)
-        - [Bowden Connector](#bowden-connector)
         - [Y Axis GT2 Belt](#y-axis-gt2-belt)
         - [LDO Toolboard](#ldo-toolboard)
         - [X Axis GT2 Belt](#x-axis-gt2-belt)
@@ -234,11 +234,11 @@ Next use 2, **M3x10mm screws** and 2, **M3 Nuts** to attach the screen mount wit
 
 <img src="./images/fabreeko_kit_build/25.jpg" width="300"/>
 
-- Line up the motor with the mounting holes in the side of the frame.  Pay attention to the direction the motor connector is facing inside the tub.  Facing away from the screen towards the back is usually best for cleaner wiring.
+- Line up the motor with the mounting holes in the side of the frame.  Pay attention to the direction the motor connector is facing inside the tub.  Facing towards the screen is usually best for cleaner wiring.
 
 <img src="./images/fabreeko_kit_build/26.jpg" width="300"/>
 
-- Attach the extruder, with the exit path pointing towards the screen, to the outside of the frame with 3 or 4, **M3x10mm** screws depending on your extruder.
+- Attach the extruder, with the exit path pointing towards the screen, to the outside of the frame with 3 or 4, **M3x10mm** screws depending on your extruder. LDO kit users can use the screws included with the extruder.
 
 <img src="./images/fabreeko_kit_build/27.jpg" width="300"/>
 
@@ -279,7 +279,7 @@ Next we will build and install the belt tensioners.
 
 <img src="./images/fabreeko_kit_build/34.jpg" width="500"/>
 
-- Use a **M3x20mm screw** to install both of the tensioners with the curved portion facing downward. 
+- Use a **M3x20mm screw** to install both of the tensioners with the curved face of the pusher facing downward. 
 
 <img src="./images/fabreeko_kit_build/35.jpg" width="500"/>
 <img src="./images/fabreeko_kit_build/36.jpg" width="500"/>
@@ -346,7 +346,7 @@ Next we will build and install the belt tensioners.
 - Slide the belt over the geared roller.
 - Put the roller back into position, making sure the gears line up properly.
 - Flip/position the belt towards the screen side of the printer.
-- Use 2 **M3x10mm** to attach the scraper below the roller, securing into the nuts we previously inserted. 
+- Use 2 **M3x20mm** to attach the scraper below the roller, securing into the nuts we previously inserted. 
 
 <img src="./images/fabreeko_kit_build/56.jpg" width="375"/>
 
@@ -383,7 +383,7 @@ The main body or "tub" is assembled.
 
 <img src="./images/fabreeko_kit_build/92.jpg" width="400"/>
 
-- Put the last two MGN7 rails into the  [*XRailSpacerV2*](../STLs/Tools/[any]_BBPro_XRailSpacerV2[x2].stl).  This will help hold the rails in the proper orientation.
+- Put the two **MGN7 rails** into the 2 [*XRailSpacerV2*](../STLs/Tools/[any]_BBPro_XRailSpacerV2[x2].stl) with the carriages between the spacers.  This will help hold the rails in the proper orientation.
 
 <img src="./images/build_guide/x-carriage-1.png" width="700"/>
 
@@ -392,9 +392,12 @@ The main body or "tub" is assembled.
 
 <img src="./images/build_guide/x-carriage-2.png" width="600"/>
 
-- Loosely attach [*X_RailMount_Side-A*](../STLs/Gantry/X/%5Ba%5D_BBProV25fl_XrailMount-SideA.stl) and [*X_RailMount_Side-B*](../STLs/Gantry/X/%5Ba%5D_BBProV25fl_XrailMount-SideB.stl) to the linear rails using 4 **M2x8mm screws** and 4 **M2 Nuts** on each side.
+- Loosely attach [*X_RailMount_Side-A*](../STLs/Gantry/X/%5Ba%5D_BBProV25fl_XrailMount-SideA.stl) and [*X_RailMount_Side-B*](../STLs/Gantry/X/%5Ba%5D_BBProV25fl_XrailMount-SideB.stl) to the linear rails using 4 **M2x6mm screws** and 4 **M2 Nuts** on each side.
 
 - Slide the  [*XRailSpacerV2*](../STLs/Tools/[any]_BBPro_XRailSpacerV2[x2].stl) out against the X_RailMounts to hole the rails square and properly spaced while tightening the nuts.
+
+>[!NOTE]
+> Older side parts in image
 
 <img src="./images/build_guide/x-carriage-3.png" width="600"/>
 
@@ -429,6 +432,11 @@ The main body or "tub" is assembled.
 >[!Note]
 > We highly recommend lubricating **all** the linear rail bearings (visible in the photo below) using something like Mobil EP1 or EP2 grease prior to installation. Nero3D has a [great guide providing explanations and how-tos for this](https://youtu.be/UYvhYjkBFTY?si=frlAKNLAvElEVHFv) 
 
+
+>[!Note]
+> For the Y carriage sides in the next few steps LDO kit users planning to use the ECAS connector will be using the ECAS version of the parts.
+
+
 - Insert a **M3 Nut** into this slot on the [*YCar_Bam_Side-A*](../STLs/Gantry/Carriage/Bambu/%5Ba%5D_BBProV25fl_YCar_Bam_SideA.stl)
 
 <img src="./images/fabreeko_kit_build/63.jpg" width="400"/>
@@ -446,6 +454,21 @@ The main body or "tub" is assembled.
 
 <img src="./images/fabreeko_kit_build/67.jpg" width="400"/>
 
+#### Bowden Connector
+>[!Note]
+> No installation pictures for this step at the moment
+
+- Depending on the choice made in item 2 of [Pre-Purchase and Print Decisions](#pre-purchase-and-print-decisions) install either:
+  -  A Bowden coupler into [*YCar_Bam_SideB*](../STLs/Gantry/Carriage/Bambu/[a]_BBProV25fl_YCar_Bam_SideB.stl)
+  
+      <img src="./images/build_guide/bowden-coupler.png" width="75"/>
+      
+  - LDO Kit ECAS connector into [*YCar_Bam_SideA_ECAS-Tight*](../STLs/Gantry/Carriage/Bambu/ECAS%20version/[a]_BBProV25fl_YCar_Bam_SideB_ecas-Tight.stl) or [*YCar_Bam_SideA_ECAS-Looser*](../STLs/Gantry/Carriage/Bambu/ECAS%20version/[a]_BBProV25fl_YCar_Bam_SideB_ecas-Looser.stl)
+         
+      <img src="./images/build_guide/bowden-ecas.png" width="50"/>
+
+[Jump to Top](#top)
+
 - Insert **M3 Nuts** into the slots indicated on the [*YCar_Bam_Side-B*](../STLs/Gantry/Carriage/Bambu/%5Ba%5D_BBProV25fl_YCar_Bam_SideB.stl)
 
 <img src="./images/fabreeko_kit_build/68.jpg" width="400"/>
@@ -456,7 +479,7 @@ Next we will install the hotend to the [*YCar_Bam_Side-B*](../STLs/Gantry/Carria
 <img src="./images/fabreeko_kit_build/70.jpg" width="400"/>
 
 - Use a **M3x20mm screw** and a **M3 Nut** to attach the hotend to the [*YCar_Bam_Side-B*](../STLs/Gantry/Carriage/Bambu/%5Ba%5D_BBProV25fl_YCar_Bam_SideB.stl)
-through the hole shown at the top
+through the hole shown at the top.  This is not a captive nut, the hotend will be held more firmly by the fan later.
 
 <img src="./images/fabreeko_kit_build/71.jpg" width="400"/>
 <img src="./images/fabreeko_kit_build/72.jpg" width="400"/>
@@ -471,8 +494,7 @@ through the hole shown at the top
 <img src="./images/fabreeko_kit_build/75.jpg" width="400"/> 
 <img src="./images/fabreeko_kit_build/76.jpg" width="400"/>
 
-- Attach the hotend fan assembly to the rail carriage (this is easier to do one half at a time)
-- Use **M3x8mm screws** for the top holes and **M3x10mm screws** for the holes nearest the nozzle. 
+- Attach the hotend fan assembly to the rail carriage using **M3x10mm screws** (this is easier to do one half at a time)
 
 <img src="./images/fabreeko_kit_build/77.jpg" width="400"/> 
 <img src="./images/fabreeko_kit_build/78.jpg" width="400"/> 
@@ -503,10 +525,6 @@ through the hole shown at the top
 
 <img src="./images/fabreeko_kit_build/86.jpg" width="600"/>
 
-- Insert **M3 nuts** into these slots of the current assembly 
-
-<img src="./images/fabreeko_kit_build/87.jpg" width="400"/>
-
 - Using 2, **M3x20mm screws** in the top hole into the captive nuts
 
 <img src="./images/fabreeko_kit_build/88.jpg" width="400"/>
@@ -518,7 +536,7 @@ through the hole shown at the top
 [Jump to Top](#top)
 
 ### Y Tensioner
-- Gather the [*TensionIdlerHolder*](../STLs/Gantry/Y/%5Ba%5D_BBProV25fl_RockMonsterNo1YTentionerIdlerHolder.stl), [*TensionBody*](../STLs/Gantry/Y/%5Ba%5D_BBProV25fl_RockMonsterNo1YTentionerBody.stl), [*TensionIdlerHolder*](../STLs/Gantry/Y/%5Ba%5D_BBProV25fl_RockMonsterNo1YTentionerIdlerHolder.stl), and an idler.
+- Gather the [*TensionIdlerHolder*](../STLs/Gantry/Y/%5Ba%5D_BBProV25fl_RockMonsterNo1YTentionerIdlerHolder.stl), [*TensionBody*](../STLs/Gantry/Y/%5Ba%5D_BBProV25fl_RockMonsterNo1YTentionerBody.stl), [*TensionerNut*](../STLs/Gantry/Y/%5Ba%5D_BBProV25fl_RockMonsterNo1YTentionerNut.stl), and an idler.
 
 <img src="./images/build_guide/y-tensioner-1.png" width="600"/>
 
@@ -554,23 +572,6 @@ through the hole shown at the top
 
 [Jump to Top](#top)
 
-### Bowden Connector
-
-- Depending on the choice made in item 2 of [Pre-Purchase and Print Decisions](#pre-purchase-and-print-decisions) install either:
-  -  A Bowden coupler into [*YCar_Bam_SideB*](../STLs/Gantry/Carriage/Bambu/[a]_BBProV25fl_YCar_Bam_SideB.stl)
-  
-      <img src="./images/build_guide/bowden-coupler.png" width="75"/>
-      
-      <img src="./images/build_guide/bowden-coupler-1.png" width="400"/>
-
-  
-  - LDO Kit ECAS connector into [*YCar_Bam_SideA_ECAS-Tight*](../STLs/Gantry/Carriage/Bambu/ECAS%20version/[a]_BBProV25fl_YCar_Bam_SideB_ecas-Tight.stl) or [*YCar_Bam_SideA_ECAS-Looser*](../STLs/Gantry/Carriage/Bambu/ECAS%20version/[a]_BBProV25fl_YCar_Bam_SideB_ecas-Looser.stl)
-         
-      <img src="./images/build_guide/bowden-ecas.png" width="50"/>
-      
-      **Add Picture of EACS Connector installed **
-
-[Jump to Top](#top)
 
 ### Y Axis GT2 Belt
 
@@ -583,11 +584,13 @@ through the hole shown at the top
 
 <img src="./images/fabreeko_kit_build/103.jpg" width="280"/>
 
-- Locate the a **NEMA11 motor** and **toothed pulley**. 
+- Locate the 2 **NEMA11 motor** and 2 **toothed pulley**. 
 
 <img src="./images/fabreeko_kit_build/104.jpg" width="600"/>
 
-- Install the **pulley** onto the motor shaft so there is about 7.5mm between the motor block and toothed section of the pulley. Also make sure one **grub screw** is on the flat face of the shaft.
+- Install the **pulley** onto the motor shaft so there is about 7.5mm between the motor block and toothed section of the pulley. Also make sure one **M4x4 grub screw** is on the flat face of the shaft.
+
+- Repeat the pulley installation on the second motor and set that to the side for later use.
 
 <img src="./images/fabreeko_kit_build/105.jpg" width="220"/>
 <img src="./images/build_guide/nema11-pulley-1.png" width="400">
@@ -615,9 +618,11 @@ through the hole shown at the top
 
 - If building from an LDO kit locate the printed [*LDO Toolboard mount*](../STLs/Gantry/Y/LDO%20Kit%20-%20Toolboard%20Mount%20v1.stl) and install it by removing the top two screws from the **Y Carriage**, align  the mount as shown and replace the screws.  
 
-- Use a pair of **M3(maybe M2.5) screws** to fasten the toolboard to the mount.
+- Use a pair of **M3x10 screws** to fasten the toolboard to the mount.
+>[!Note]
+>The LDO BOM was finalized before the introduction of the toolboard.  There is a chance of being short a couple M3x10 screws however most kits seem to have a couple extras.
 
-- Connect the Parts Fan, Hotend Fan, Hotend Thermistor, and Hotend Heater wires to the labeled ports on the board.
+- Connect the Parts Cooling Fan to the PCF port, Hotend Fan to HEF port, Hotend Thermistor to TH0 port, and Hotend Heater to the HE0 port on the board.
 
 <img src="./images/build_guide/ldo-toolboard-1.png" width="400"/>
 
@@ -632,21 +637,21 @@ through the hole shown at the top
 
 <img src="./images/build_guide/x-axis-1.png" width="600"/>
 
-- Push the belt to make space for the pulley on the X axis motor (prepared identically to the Y axis motor)
+- Push the belt to make space for the pulley on the X axis motor.
 
 <img src="./images/build_guide/x-axis-2.png" width="600"/>
 
-- Install the X axis Motor using 4 **M2.5x8mm** screws inserted from the underside like the Y axis motor.
+- Install the X axis Motor prepared earlier using 4 **M2.5x8mm** screws inserted from the underside like the Y axis motor.
 
 <img src="./images/build_guide/x-axis-3.png" width="600"/>
 
-- Locate the two sets of [*X_PivotArm*](../STLs/Gantry/X/%5Ba%5D_BBProV25fl_pivotArm(2x).stl) and [*X_Pivot Clamp*](../STLs/Gantry/X/%5Ba%5D_BBProV25fl_XPivotClamp(2x).stl).  Loosely assemble the two pieces using 2 **M3x10 screws** and **M3 Nuts**.
+- Locate the two sets of [*X_PivotArm*](../STLs/Gantry/X/%5Ba%5D_BBProV25fl_pivotArm(2x).stl) and [*X_Pivot Clamp*](../STLs/Gantry/X/%5Ba%5D_BBProV25fl_XPivotClamp(2x).stl).  **Loosely** assemble the two pieces using 2 **M3x10 screws** and **M3 Nuts**.
 
 <img src="./images/build_guide/x-axis-4.png" width="200"/>
 
 - On the right side, paying attention the the orientation of the belt teeth, feed the belt between the two pieces and out through the opening nearest the screws on the [*X_Pivot Clamp*](../STLs/Gantry/X/%5Ba%5D_BBProV25fl_XPivotClamp(2x).stl).  Pull 5 or 6 teeth worth of belt through and tighten the 2 **M3x10 screws** to secure the belt.
 
-<img src="./images/build_guide/x-axis-5.png" width="400"/>
+<img src="./images/build_guide/x-axis-7.png" width="400"/>
 
 - Attach the [*X_PivotArm*](../STLs/Gantry/X/%5Ba%5D_BBProV25fl_pivotArm(2x).stl) on the right side of the assembly using a **M3x20 screw** 
 
@@ -672,7 +677,7 @@ through the hole shown at the top
 
 <img src="./images/build_guide/x-axis-9.png" width="400"/>
 
-- Alternate between sides tightening the **M3x20 screw** until the belt is tight.
+- Alternate between sides tightening the **M3x20 screw** until the belt has enough tension to not slip on the pulley when moving side to side quickly.
 
 - Clip off the excess belt from the left side, leaving 5 or 6 teeth exposed to match the right side.
 
@@ -692,13 +697,13 @@ through the hole shown at the top
 
 <img src="./images/build_guide/bowden-install-1.png" width="400"/>
 
-- Move the gantry on both the X and Y axis.  There should be smooth motion in both directions for the full range.  There should be no slippage of the belt on any pulleys. Adjust X or Y Tensioners as needed.
+- Move the gantry on both the X and Y axis.  There should be smooth motion in both directions for the full range.  The belts should be tight enough that they do not slip on the pulley during a rapid movement.  Overtight belts can cause restricted or rough movement by adding torsion to the frame.  Adjust X or Y Tensioners as needed.
 
-- On both Side A and Side B insert a total of 4 **M3 nuts** into the gantry mounting holes on the front of the pan.
+- On both Side A and Side B insert 2 **M3 nuts** into the gantry mounting holes on the front of the pan as shown below.  A total of 4 nuts will be installed.
 
 <img src="./images/build_guide/gantry-mount-1.png" width="400"/>
 
-- If needed, push the nuts completely into the holes using a M2.5 Hex key.  Then, use the key to make sure the nuts are aligned by pushing it through the frame openings.
+- If needed, push the nuts completely into the holes using a 2mm Hex key (same size used to drive M2.5 screws).  Then, use the key to make sure the nuts are aligned by pushing it through the frame openings.
 
 <img src="./images/build_guide/gantry-mount-2.png" width="400"/>
 
