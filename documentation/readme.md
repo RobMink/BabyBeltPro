@@ -3,6 +3,7 @@
 | Document | Description|
 |-----------------------------------------------------|-|
 | [BBPv2 Build Guide](./bbpv2_build_guide.md)       |START HERE!!!! 
+| [Bill of Materials](https://docs.google.com/spreadsheets/d/19PbR3nFbQ4-eIOTU0kmoTl5-mHv_KsTnUdfFXekWg-I/edit?gid=0#gid=0) | What you need to build your own Baby Belt Pro 
 | [Belt Assembly Instructions](./belt_guide.md)     |How to create your own custom belt.
 | [Printed Parts Guide](./printed_parts_guide.md)   |Read the build guide to be sure you know what to print for your build.
 | [Guided Firmware](./Guided_Firmware_Readme.md)    |Updates planned
