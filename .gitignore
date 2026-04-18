@@ -1,2 +1,6 @@
 /.idea/
+<<<<<<< HEAD
 /.vscode
+=======
+**/.DS_Store
+>>>>>>> 664b0c8 (Add PCB Cover as a usermod)
