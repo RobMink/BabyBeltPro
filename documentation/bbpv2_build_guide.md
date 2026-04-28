@@ -463,7 +463,7 @@ The main body or "tub" is assembled.
   
       <img src="./images/build_guide/bowden-coupler.png" width="75"/>
       
-  - LDO Kit ECAS connector into [*YCar_Bam_SideA_ECAS-Tight*](../STLs/Gantry/Carriage/Bambu/ECAS%20version/[a]_BBProV25fl_YCar_Bam_SideB_ecas-Tight.stl) or [*YCar_Bam_SideA_ECAS-Looser*](../STLs/Gantry/Carriage/Bambu/ECAS%20version/[a]_BBProV25fl_YCar_Bam_SideB_ecas-Looser.stl)
+  - LDO Kit ECAS connector into [*YCar_Bam_SideB_ECAS-Tight*](../STLs/Gantry/Carriage/Bambu/ECAS%20version/[a]_BBProV25fl_YCar_Bam_SideB_ecas-Tight.stl) or [*YCar_Bam_SideB_ECAS-Looser*](../STLs/Gantry/Carriage/Bambu/ECAS%20version/[a]_BBProV25fl_YCar_Bam_SideB_ecas-Looser.stl)
          
       <img src="./images/build_guide/bowden-ecas.png" width="50"/>
 
