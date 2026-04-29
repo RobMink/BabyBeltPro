@@ -4,6 +4,7 @@
  - New profile for klipper FW and KiriMoto Slicer
  - Updated y-axis macros to include a -/+ 1mm move (community request)
  - New optional config to enable loop printing (M808)
+ - Add M808/loop printing guide
  - New optional config to mask bed heater commands
  - New Slicer setup guide with KiriMoto instructions
  - Update main docs readme
