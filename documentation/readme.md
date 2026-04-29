@@ -7,6 +7,8 @@
 | [Belt Assembly Instructions](./belt_guide.md)     |How to create your own custom belt.
 | [Printed Parts Guide](./printed_parts_guide.md)   |Read the build guide to be sure you know what to print for your build.
 | [Guided Firmware](./Guided_Firmware_Readme.md)    |Updates planned
+| [Slicer Setup Guide](./slicer_setup_guide.md)     |Instructions for importing supplied profiles into belt slicers
+| [Loop Printing Guide](./loop_printing_guide.md)   |Use M808 to easily print the same object multiple times
 | [Legacy Build Instructions](https://docs.google.com/document/d/1dYbbvt_AkUhesFwPe-TYXSqsQAuzoHFzMLlQnfHJwGQ/edit?usp=sharing) |Original v2 Google Doc guide from Rob.
 | [Legacy Fabreeko Kit Guide](./Fabreeko_kit_build_guide.md)    |
 | [Known Issues](./Known_Issues.md)                             |
