@@ -1,5 +1,19 @@
 # Change Log
 
+## 2026-06-20
+ - BabyBeltPro v2.6
+    - Changed from 3 MGN7H rails (2X 1Y) to 1 MGN9C(Y) and 1 MGN12C(X)
+    - Removed 2mm screws (2.5s still needed for steppers and some hotend parts)
+    - Added M3x6 BHCS (Y Gantry to MGN12 rail) and M3x30 SHCS (new X gantry to frame)
+    - enhanced X gantry components for increased stability
+        - X gantry now uses heatsets M3x4x5 (Voron style)
+        - Backwards compatible with 2.5 BOM rails (mgn7H)
+    - Improved hole and screw insertion patterns for easier installation on Y axis
+    - Revised X/Y stepper mounting for easier install/maintenance
+ - Added 2.6 and 2.6 to 2.5 diff BOM links
+ - Updated build guide for 2.6 
+
+
 ## 2026-04-28
  - New profile for klipper FW and KiriMoto Slicer
  - Updated y-axis macros to include a -/+ 1mm move (community request)

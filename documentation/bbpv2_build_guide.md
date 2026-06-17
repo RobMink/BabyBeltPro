@@ -21,6 +21,7 @@ Jump To...
         - [Z-Motor](#z-motor)
         - [Scraper Install](#scraper-install)
     - [Gantry](#Gantry)
+        - [Heatset Install](#heatset-install)
         - [X Carriage](#X-Carriage)
         - [Y Carriage](#Y-Carriage)
             - [Bowden Connector](#bowden-connector)
@@ -28,9 +29,10 @@ Jump To...
         - [Heatbreak Fan](#Heatbreak-fan)
         - [Y Tensioner](#Y-Tensioner)
         - [Y Axis](#Y-Axis)
+        - [Mount Steppers](#mount-steppers)
+        - [X Axis GT2 Belt](#x-axis-gt2-belt)
         - [Y Axis GT2 Belt](#y-axis-gt2-belt)
         - [LDO Toolboard](#ldo-toolboard)
-        - [X Axis GT2 Belt](#x-axis-gt2-belt)
         - [Gantry Completion](#gantry-completion)
     - [Heated Bed](#heated-bed)
         - [No Heated Bed](#no-heated-bed)
@@ -364,6 +366,23 @@ The main body or "tub" is assembled.
 
 ## Gantry
 
+### Install Heatsets
+The gantry assembly requires 15 M3x4x5 aka Voron Style heatset inserts.  If you are not familiar here is an old but short video that gives an overview of the process by CanuckCreator [Heatset Insert in a Minute](https://www.youtube.com/shorts/cyof7fYFcuQ).
+
+- 6 inserts go in the [X Carriage](../STLs/Gantry/X/BBProV26fl_X-Carriage.stl) as shown below. The green is from re-using heatsets, ignore it.
+
+<img src="./images/build_guide/x-carraige-heatsets.jpg" width="400"/>
+
+- 4 inserts go in EACH [[a]_BBProV26fl_XrailMountUnder-SideA.stl](../STLs/Gantry/X/[a]_BBProV26fl_XrailMountUnder-SideA.stl) and [[a]_BBProV26fl_XrailMountUnder-SideB.stl](../STLs/Gantry/X/[a]_BBProV26fl_XrailMountUnder-SideB.stl).  
+
+<img src="./images/build_guide/x-heatset-1.jpg" width="300"/>
+<img src="./images/build_guide/x-heatset-2.jpg" width="200"/>
+<img src="./images/build_guide/x-heatset-3.jpg" width="200"/>
+
+<img src="./images/build_guide/x-heatset-6.jpg" width="300"/>
+<img src="./images/build_guide/x-heatset-4.jpg" width="200"/>
+<img src="./images/build_guide/x-heatset-5.jpg" width="200"/>
+
 [Jump to Top](#top)
 
 ### X Carriage
@@ -375,40 +394,41 @@ The main body or "tub" is assembled.
 >[!Note]
 > We highly recommend lubricating **all** the linear rail bearings (visible in the photo below) using something like Mobil EP1 or EP2 grease prior to installation. Nero3D has a [great guide providing explanations and how-tos for this](https://youtu.be/UYvhYjkBFTY?si=frlAKNLAvElEVHFv) 
 
-- Position [*X-Carriage*](../STLs/Gantry/X/BBProV25fl_X-Carriage.stl)  line up the **smooth idlers** with the indicated holes and secure in place with 2, **M3x20 screws**
+ - Locate [*[a]_BBProV26fl_XrailMount-SideA*](../STLs/Gantry/X/[a]_BBProV26fl_XrailMount-SideA.stl), [*[a]_BBProV26fl_XrailMount-SideB*](../STLs/Gantry/X/[a]_BBProV26fl_XrailMount-SideB.stl) and the two XrailMountUnder parts with the heatsets installed.
 
-<img src="./images/fabreeko_kit_build/90.jpg" width="400"/>
+ - Take the cleaned and lubricated MGN12C rail, place it on a flat surface, move the carrier to the center, and carefully move the rubber stoppers from one end towards the center so the two holes are open.
 
-- The gantry should now look like this. The yellow boxes indicate where the gantry will be attached to the pair of **linear rails** in the coming steps.
+ - On each side the Mount and Mount under pieces will be aligned with the raised portion towards the inside.
 
-<img src="./images/fabreeko_kit_build/92.jpg" width="400"/>
+ <img src="./images/build_guide/x-carriage-1.jpg" width="400"/>
 
-- Put the two **MGN7 rails** into the 2 [*XRailSpacerV2*](../STLs/Tools/[any]_BBPro_XRailSpacerV2[x2].stl) with the carriages between the spacers.  This will help hold the rails in the proper orientation.
+- Line up the mount holes with the two end MGN12C rail holes and loosely fasten them together with **M3X10 screws**.  Slide the carrier towards that side, move the other stopper and fasten the other side.
 
-<img src="./images/build_guide/x-carriage-1.png" width="700"/>
+<img src="./images/build_guide/x-carriage-2.jpg" width="400"/>
+<img src="./images/build_guide/x-carriage-3.jpg" width="400"/>
+
+- Position [*BBProV26fl_X-Carraige*](../STLs/Gantry/X/BBProV26fl_X-Carraige.stl) over the MGN12C carrier and securely fasten it using 4 **M3x6 BUTTON HEAD** screws.  
+>[!CAUTION]
+> You MUST used button head screws on this, the idlers will catch on Socket head caps and cause motion issues.  Yes, they are wrong in the picture.
+
+<img src="./images/build_guide/x-carriage-4.jpg" width="400"/>
+
+- On [*BBProV26fl_X-Carraige*](../STLs/Gantry/X/BBProV26fl_X-Carraige.stl) line up the **smooth idlers** with the indicated holes and secure in place with 2, **M3x20 screws**.
 
 
-- Attach the gantry to the linear rails using 8 **M2x6 screws** (4 for each linear rail) 
 
-<img src="./images/build_guide/x-carriage-2.png" width="600"/>
 
-- Loosely attach [*X_RailMount_Side-A*](../STLs/Gantry/X/%5Ba%5D_BBProV25fl_XrailMount-SideA.stl) and [*X_RailMount_Side-B*](../STLs/Gantry/X/%5Ba%5D_BBProV25fl_XrailMount-SideB.stl) to the linear rails using 4 **M2x6mm screws** and 4 **M2 Nuts** on each side.
 
-- Slide the  [*XRailSpacerV2*](../STLs/Tools/[any]_BBPro_XRailSpacerV2[x2].stl) out against the X_RailMounts to hole the rails square and properly spaced while tightening the nuts.
 
->[!NOTE]
-> Older side parts in image
-
-<img src="./images/build_guide/x-carriage-3.png" width="600"/>
-
-- 2025 revision parts shown below.
-
-<img src="./images/build_guide/x-carriage-4.png" width="600"/>
+<img src="./images/build_guide/x-carriage-5.jpg" width="400"/>
 
 [Jump to Top](#top)
 
 
 ### Y Carriage
+ >[!Note]
+> Older MGN7 sized parts may be shown, for 2.6 the overall process and part layout are the same with larger mgn9c and M3 BHCS attachment hardware.
+ 
  - Attach the [*YCar_Bam_Fan*](../STLs/Gantry/Carriage/Bambu/%5Ba%5D_BBProV25fl_YCar_Bam_Fan.stl) to the [*YCar_Bam_BeltHolder*](../STLs/Gantry/Carriage/Bambu/%5Ba%5D_BBProV25fl_YCar_Bam_BeltHolder.stl) by inserting 2, **M3x10 screws** into the holes indicated in the first image, and through the whole in the second image
 - Secure with **M3 Nuts** 
 
@@ -437,11 +457,12 @@ The main body or "tub" is assembled.
 > For the Y carriage sides in the next few steps LDO kit users planning to use the ECAS connector will be using the ECAS version of the parts.
 
 
-- Insert a **M3 Nut** into this slot on the [*YCar_Bam_Side-A*](../STLs/Gantry/Carriage/Bambu/%5Ba%5D_BBProV25fl_YCar_Bam_SideA.stl)
+- Insert a **M3 Nut** into this slot on the [*[a]_BBProV26fl_YCar_Bam_SideA*](../STLs/Gantry/Carriage/Bambu/[a]_BBProV26fl_YCar_Bam_SideA.stl)
 
 <img src="./images/fabreeko_kit_build/63.jpg" width="400"/>
 
-- Attach the carriage to the **linear rail** using 4, **M2x6mm screws**
+- Attach the carriage to the **MGN9C linear rail** using 4, **M3x6mm BUTTON HEAD screws**.  
+
 
 <img src="./images/fabreeko_kit_build/64.jpg" width="400"/>
 
@@ -559,31 +580,21 @@ through the hole shown at the top.  This is not a captive nut, the hotend will b
 
 ### Y Axis
 
-- Attach the linear rail of the Y axis to the inside of the Y Tensioner using 2, **M2x8mm screws** and 2, **M2 Nuts**.  Insert the screws in on the rail side.  If your Hex key/driver is long enough go through the holes on the opposite side to get them tight.
+- Attach the linear rail of the Y axis to the inside of the Y Tensioner using 2, **M3x10mm screws** and 2, **M3 Nuts**.  Insert the screws in on the rail side.  If your Hex key/driver is long enough go through the holes on the opposite side to get them tight.
 
-- Attach the linear rail of the Y axis to the X gantry as shown below, using 2, **M2x8mm screws** and 2, **M2 Nuts**
+<img src="./images/build_guide/y-carriage-1.jpg" width="400"/>
 
-<img src="./images/fabreeko_kit_build/98.jpg" width="600"/>
+- Attach the linear rail of the Y axis to the X gantry as shown below, using 2, **M3x10mm screws** and 2, **M3 Nuts**
 
-- Attach the [*LinearRailReplacement*](../STLs/Gantry/Y/BBProV25fl_LinearRailReplacement.stl) on the other side of the Y axis in the same way 
+<img src="./images/build_guide/y-carriage-2.jpg" width="400"/>
 
-<img src="./images/fabreeko_kit_build/99.jpg" width="600"/>
-<img src="./images/fabreeko_kit_build/100.jpg" width="600"/>
+- Attach the [*BBProV26fl_LinearRailReplacement*](../STLs/Gantry/Y/BBProV26fl_LinearRailReplacement.stl) on the other side of the Y axis using 4, **M3x10mm screws**
+
+<img src="./images/build_guide/y-carriage-3.jpg" width="400"/>
 
 [Jump to Top](#top)
 
-
-### Y Axis GT2 Belt
-
->[!NOTE]
->When installing the GT2 belts, try to get them as tight as possible when you first install them. This will make it easier to get the right tension later. You can pre-cut the belts to 480mm (Y axis) and 290mm (X axis) and trim down when finishing, or you can run a much longer length (even the full uncut belt) to make sure you don't cut your belt too short. Either way you will have some leftover. 
- 
-- Run the belt through the Y stop, teeth facing toward the idler, and secure the first 3 teeth into the Y gantry
-
-<img src="./images/fabreeko_kit_build/102.jpg" width="600"/>
-
-<img src="./images/fabreeko_kit_build/103.jpg" width="280"/>
-
+### Mount Steppers
 - Locate the 2 **NEMA11 motor** and 2 **toothed pulley**. 
 
 <img src="./images/fabreeko_kit_build/104.jpg" width="600"/>
@@ -596,35 +607,9 @@ through the hole shown at the top.  This is not a captive nut, the hotend will b
 <img src="./images/build_guide/nema11-pulley-1.png" width="400">
 <img src="./images/fabreeko_kit_build/106.jpg" width="400"/>
 
-- Install the motor onto the X gantry in the position that is closest to the hotend using 4, **M2.5x8mm** screws. Align the wires from the motor as shown in the picture. There are openings on the opposite side of the gantry to allow allen keys to reach the screws.
+- Sit the two motors in a row with wires facing to the left.  Place [BBProV26fl_X-CarraigeMotorMount](../STLs/Gantry/X/BBProV26fl_X-CarraigeMotorMount.stl) on top of the motors with the pocketed side down.  Secure both to the mount with 4, **M2.5x6mm screws** in each motor.
 
-<img src="./images/fabreeko_kit_build/108.jpg" width="500"/>
-
-<img src="./images/build_guide/y-motor-1.png" width="500"/>
-
-- Run the belt through the X gantry and around the pulley
-
-<img src="./images/fabreeko_kit_build/109.jpg" width="600"/>
-
-- If not already trimmed to the correct length, cut the belt so that it fits into the remaining teeth and secure in place with a zip tie
-
-<img src="./images/fabreeko_kit_build/110.jpg" width="400"/>
-<img src="./images/fabreeko_kit_build/111.jpg" width="300"/>
-
-
-[Jump to Top](#top)
-
-### LDO Toolboard
-
-- If building from an LDO kit locate the printed [*LDO Toolboard mount*](../STLs/Gantry/Y/LDO%20Kit%20-%20Toolboard%20Mount%20v1.stl) and install it by removing the top two screws from the **Y Carriage**, align  the mount as shown and replace the screws.  
-
-- Use a pair of **M3x10 screws** to fasten the toolboard to the mount.
->[!Note]
->The LDO BOM was finalized before the introduction of the toolboard.  There is a chance of being short a couple M3x10 screws however most kits seem to have a couple extras.
-
-- Connect the Parts Cooling Fan to the PCF port, Hotend Fan to HEF port, Hotend Thermistor to TH0 port, and Hotend Heater to the HE0 port on the board.
-
-<img src="./images/build_guide/ldo-toolboard-1.png" width="400"/>
+<img src="./images/build_guide/motor-mount-1.jpg" width="400"/>
 
 [Jump to Top](#top)
 
@@ -680,6 +665,52 @@ through the hole shown at the top.  This is not a captive nut, the hotend will b
 - Alternate between sides tightening the **M3x20 screw** until the belt has enough tension to not slip on the pulley when moving side to side quickly.
 
 - Clip off the excess belt from the left side, leaving 5 or 6 teeth exposed to match the right side.
+
+[Jump to Top](#top)
+
+
+### Y Axis GT2 Belt
+
+>[!NOTE]
+>When installing the GT2 belts, try to get them as tight as possible when you first install them. This will make it easier to get the right tension later. You can pre-cut the belts to 480mm (Y axis) and 290mm (X axis) and trim down when finishing, or you can run a much longer length (even the full uncut belt) to make sure you don't cut your belt too short. Either way you will have some leftover. 
+ 
+- Run the belt through the Y stop, teeth facing toward the idler, and secure the first 3 teeth into the Y gantry
+
+<img src="./images/fabreeko_kit_build/102.jpg" width="600"/>
+
+<img src="./images/fabreeko_kit_build/103.jpg" width="280"/>
+
+
+
+- Install the motor onto the X gantry in the position that is closest to the hotend using 4, **M2.5x8mm** screws. Align the wires from the motor as shown in the picture. There are openings on the opposite side of the gantry to allow allen keys to reach the screws.
+
+<img src="./images/fabreeko_kit_build/108.jpg" width="500"/>
+
+<img src="./images/build_guide/y-motor-1.png" width="500"/>
+
+- Run the belt through the X gantry and around the pulley
+
+<img src="./images/fabreeko_kit_build/109.jpg" width="600"/>
+
+- If not already trimmed to the correct length, cut the belt so that it fits into the remaining teeth and secure in place with a zip tie
+
+<img src="./images/fabreeko_kit_build/110.jpg" width="400"/>
+<img src="./images/fabreeko_kit_build/111.jpg" width="300"/>
+
+
+[Jump to Top](#top)
+
+### LDO Toolboard
+
+- If building from an LDO kit locate the printed [*LDO Toolboard mount*](../STLs/Gantry/Y/LDO%20Kit%20-%20Toolboard%20Mount%20v1.stl) and install it by removing the top two screws from the **Y Carriage**, align  the mount as shown and replace the screws.  
+
+- Use a pair of **M3x10 screws** to fasten the toolboard to the mount.
+>[!Note]
+>The LDO BOM was finalized before the introduction of the toolboard.  There is a chance of being short a couple M3x10 screws however most kits seem to have a couple extras.
+
+- Connect the Parts Cooling Fan to the PCF port, Hotend Fan to HEF port, Hotend Thermistor to TH0 port, and Hotend Heater to the HE0 port on the board.
+
+<img src="./images/build_guide/ldo-toolboard-1.png" width="400"/>
 
 [Jump to Top](#top)
 
