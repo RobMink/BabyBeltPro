@@ -557,11 +557,11 @@ through the hole shown at the top.  This is not a captive nut, the hotend will b
 [Jump to Top](#top)
 
 ### Y Tensioner
-- Gather the [*TensionIdlerHolder*](../STLs/Gantry/Y/%5Ba%5D_BBProV25fl_RockMonsterNo1YTentionerIdlerHolder.stl), [*TensionBody*](../STLs/Gantry/Y/%5Ba%5D_BBProV25fl_RockMonsterNo1YTentionerBody.stl), [*TensionerNut*](../STLs/Gantry/Y/%5Ba%5D_BBProV25fl_RockMonsterNo1YTentionerNut.stl), and an idler.
+- Gather the [*TensionIdlerHolder*](../STLs/Gantry/Y/%5Ba%5D_BBProV25fl_RockMonsterNo1YTentionerIdlerHolder.stl), [*TensionBody*](../STLs/Gantry/Y/[a]_BBProV26fl_RockMonsterNo1YTentionerBody.stl), [*TensionerNut*](../STLs/Gantry/Y/%5Ba%5D_BBProV25fl_RockMonsterNo1YTentionerNut.stl), and an idler.
 
 <img src="./images/build_guide/y-tensioner-1.png" width="600"/>
 
-- Insert the [*TensionIdlerHolder*](../STLs/Gantry/Y/%5Ba%5D_BBProV25fl_RockMonsterNo1YTentionerIdlerHolder.stl) into the [*TensionBody*](../STLs/Gantry/Y/%5Ba%5D_BBProV25fl_RockMonsterNo1YTentionerBody.stl) with the larger hole (to accommodate for the screw head) on the same side as the circular indentation on the body
+- Insert the [*TensionIdlerHolder*](../STLs/Gantry/Y/%5Ba%5D_BBProV25fl_RockMonsterNo1YTentionerIdlerHolder.stl) into the [*TensionBody*](../STLs/Gantry/Y/[a]_BBProV26fl_RockMonsterNo1YTentionerBody.stl) with the larger hole (to accommodate for the screw head) on the same side as the circular indentation on the body
 
 <img src="./images/build_guide/y-tensioner-2.png" width="600"/>
 
@@ -574,7 +574,7 @@ through the hole shown at the top.  This is not a captive nut, the hotend will b
 <img src="./images/build_guide/y-tensioner-4.png" width="600"/>
 
 >[!CAUTION]
->Make sure the configuration of your [*TensionIdlerHolder*](../STLs/Gantry/Y/%5Ba%5D_BBProV25fl_RockMonsterNo1YTentionerIdlerHolder.stl)  and [*TensionBody*](../STLs/Gantry/Y/%5Ba%5D_BBProV25fl_RockMonsterNo1YTentionerBody.stl) are correct before proceeding.
+>Make sure the configuration of your [*TensionIdlerHolder*](../STLs/Gantry/Y/%5Ba%5D_BBProV25fl_RockMonsterNo1YTentionerIdlerHolder.stl)  and [*TensionBody*](../STLs/Gantry/Y/[a]_BBProV26fl_RockMonsterNo1YTentionerBody.stl) are correct before proceeding.
 
 [Jump to Top](#top)
 
