@@ -29,9 +29,9 @@ Jump To...
         - [Heatbreak Fan](#Heatbreak-fan)
         - [Y Tensioner](#Y-Tensioner)
         - [Y Axis](#Y-Axis)
-        - [Mount Steppers](#mount-steppers)
-        - [X Axis GT2 Belt](#x-axis-gt2-belt)
         - [Y Axis GT2 Belt](#y-axis-gt2-belt)
+        - [Mount Steppers](#mount-steppers) 
+        - [X Axis GT2 Belt](#x-axis-gt2-belt)
         - [LDO Toolboard](#ldo-toolboard)
         - [Gantry Completion](#gantry-completion)
     - [Heated Bed](#heated-bed)
@@ -594,6 +594,25 @@ through the hole shown at the top.  This is not a captive nut, the hotend will b
 
 [Jump to Top](#top)
 
+### Y Axis GT2 Belt
+
+- Pre-cut two belts to 480mm (Y axis) and 290mm (X axis). 
+ 
+- Run the longer (Y) belt through the Y tensioner, teeth facing toward the idler, and secure the first 3 teeth into the Y gantry
+
+<img src="./images/fabreeko_kit_build/102.jpg" width="600"/>
+
+<img src="./images/fabreeko_kit_build/103.jpg" width="280"/>
+
+- Loop the belt around, insert as much belt as you can fit into the remaining teeth and secure in place with a zip tie
+
+<img src="./images/fabreeko_kit_build/110.jpg" width="400"/>
+<img src="./images/fabreeko_kit_build/111.jpg" width="300"/>
+
+- leave the belt lay for now, we will grab it with a pulley later.
+
+[Jump to Top](#top)
+
 ### Mount Steppers
 - Locate the 2 **NEMA11 motor** and 2 **toothed pulley**. 
 
@@ -601,7 +620,7 @@ through the hole shown at the top.  This is not a captive nut, the hotend will b
 
 - Install the **pulley** onto the motor shaft so there is about 7.5mm between the motor block and toothed section of the pulley. Also make sure one **M4x4 grub screw** is on the flat face of the shaft.
 
-- Repeat the pulley installation on the second motor and set that to the side for later use.
+- Repeat the pulley installation on the second motor.
 
 <img src="./images/fabreeko_kit_build/105.jpg" width="220"/>
 <img src="./images/build_guide/nema11-pulley-1.png" width="400">
@@ -611,24 +630,11 @@ through the hole shown at the top.  This is not a captive nut, the hotend will b
 
 <img src="./images/build_guide/motor-mount-1.jpg" width="400"/>
 
+- The motor on the wider end will be your Y motor and go towards the hotend, the motor on the more narrow end will be the X.
+
 [Jump to Top](#top)
 
 ### X Axis GT2 Belt
-
->[!Caution]
->The belt ends will hang loose on the outside of the the Rail mounts for this step, belt will be attached with the tensioners later.
-
-- Run the belt for the X axis with teeth facing up as seen below, through the slots in each of the rail mounts.
-
-<img src="./images/build_guide/x-axis-1.png" width="600"/>
-
-- Push the belt to make space for the pulley on the X axis motor.
-
-<img src="./images/build_guide/x-axis-2.png" width="600"/>
-
-- Install the X axis Motor prepared earlier using 4 **M2.5x8mm** screws inserted from the underside like the Y axis motor.
-
-<img src="./images/build_guide/x-axis-3.png" width="600"/>
 
 - Locate the two sets of [*X_PivotArm*](../STLs/Gantry/X/%5Ba%5D_BBProV25fl_pivotArm(2x).stl) and [*X_Pivot Clamp*](../STLs/Gantry/X/%5Ba%5D_BBProV25fl_XPivotClamp(2x).stl).  **Loosely** assemble the two pieces using 2 **M3x10 screws** and **M3 Nuts**.
 
@@ -636,73 +642,73 @@ through the hole shown at the top.  This is not a captive nut, the hotend will b
 
 - On the right side, paying attention the the orientation of the belt teeth, feed the belt between the two pieces and out through the opening nearest the screws on the [*X_Pivot Clamp*](../STLs/Gantry/X/%5Ba%5D_BBProV25fl_XPivotClamp(2x).stl).  Pull 5 or 6 teeth worth of belt through and tighten the 2 **M3x10 screws** to secure the belt.
 
+- Push the loose end of the belt through the slot in the gantry with the teeth facing toward the hotend.
+
 <img src="./images/build_guide/x-axis-7.png" width="400"/>
+
 
 - Attach the [*X_PivotArm*](../STLs/Gantry/X/%5Ba%5D_BBProV25fl_pivotArm(2x).stl) on the right side of the assembly using a **M3x20 screw** 
 
 <img src="./images/build_guide/x-axis-6.png" width="400"/>
 
-- Repeat feeding the belt through loosely on the left side, again paying attention the the orientation of the belt teeth.  Pull most of the remaining belt through.
+- Thread the loose end of the belt through the X carriage on top of the two idlers and out the slot on the left side.
 
-<img src="./images/build_guide/x-axis-7.png" width="400"/>
+<img src="./images/build_guide/x-axis-10.png" width="600"/>
 
-- Attach the [*X_PivotArm*](../STLs/Gantry/X/%5Ba%5D_BBProV25fl_pivotArm(2x).stl) on the left side of the assembly using a **M3x20 screw** 
+- Using a wrench, screwdriver, or something pull a loop the X belt to the bottom of the carriage.  We need to have a loop large enough that the X motor pulley can pass.
 
-<img src="./images/build_guide/x-axis-8.png" width="400"/>
+<img src="./images/build_guide/x-axis-11.png" width="400"/>
 
-- Before applying tension, double check that the **M3x10 screws** on the right side tensioners are secure.
+#### Tricky Part
 
-- Pull any remaining slack from the belt through the left side tensioner.  
+- Grab your mounted motors, hold them pulleys down with the wide end facing the hotend.
 
-- Move the gantry back and forth slightly on the x axis to be sure the belt is seated on the pulley.
+- Loop the Y belt around the upper motor.
 
-- Give the belt another tug to get the last bit of slack on the left side and tighten the **M3x10 screws**.
+<img src="./images/build_guide/x-axis-12.png" width="500"/>
 
-- On both sides insert a **M3x20 screw** through the [*X_PivotArm*](../STLs/Gantry/X/%5Ba%5D_BBProV25fl_pivotArm(2x).stl) and X Gantry side into a **M3 nut**.  Note there is a space for the nut to seat into.
+- Lower the motors down in to place.  If your X belt is tucked nicely around the outside the pulley should fit down with minimal wiggling.
 
-<img src="./images/build_guide/x-axis-9.png" width="400"/>
+<img src="./images/build_guide/x-axis-13.png" width="500"/>
 
-- Alternate between sides tightening the **M3x20 screw** until the belt has enough tension to not slip on the pulley when moving side to side quickly.
+- Grab the X belt on the left side of the gantry and pull out any slack.  Keeping it taught (no need to be forcibly tight) move the gantry back and forth.  It should move smoothly with slight resistance and sound from the stepper.
 
-- Clip off the excess belt from the left side, leaving 5 or 6 teeth exposed to match the right side.
+- Assuming things are moving freely, fasten the motor mount bracket to the gantry using 6 **M3x20 screws**.
 
-[Jump to Top](#top)
+<img src="./images/build_guide/x-axis-14.png" width="300"/><img src="./images/build_guide/x-axis-15.png" width="300"/>
 
+- Feed the loose end of the belt through the other pivot clamp, leaving it loose.
 
-### Y Axis GT2 Belt
+<img src="./images/build_guide/x-axis-16.png" width="400"/>
 
->[!NOTE]
->When installing the GT2 belts, try to get them as tight as possible when you first install them. This will make it easier to get the right tension later. You can pre-cut the belts to 480mm (Y axis) and 290mm (X axis) and trim down when finishing, or you can run a much longer length (even the full uncut belt) to make sure you don't cut your belt too short. Either way you will have some leftover. 
- 
-- Run the belt through the Y stop, teeth facing toward the idler, and secure the first 3 teeth into the Y gantry
+- Attach the pivot clamp to the gantry using a **M3x20 screw**.
 
-<img src="./images/fabreeko_kit_build/102.jpg" width="600"/>
+<img src="./images/build_guide/x-axis-17.png" width="400"/>
 
-<img src="./images/fabreeko_kit_build/103.jpg" width="280"/>
+- Push both pivot clamps against the gantry as shown.  This is the point where these add the least amount of pull to the belt.
 
+<img src="./images/build_guide/x-axis-18.png" width="400"/>
 
+- Pull as much slack as possible out of the X belt.  You might need to push it in from the inside and help guide it through.  Tighten the screws to hold the belt.
 
-- Install the motor onto the X gantry in the position that is closest to the hotend using 4, **M2.5x8mm** screws. Align the wires from the motor as shown in the picture. There are openings on the opposite side of the gantry to allow allen keys to reach the screws.
+<img src="./images/build_guide/x-axis-19.png" width="400"/>
 
-<img src="./images/fabreeko_kit_build/108.jpg" width="500"/>
+- On each side install a **M3x20 screw** and **M3 nut**, these are used to tension the belt.
 
-<img src="./images/build_guide/y-motor-1.png" width="500"/>
+<img src="./images/build_guide/x-axis-20.png" width="400"/>
 
-- Run the belt through the X gantry and around the pulley
+- Evenly tighten those screws to tighten the X belt.  It only needs to be tight enough that the belt does not slip on the motor pulley during a rapid move.
 
-<img src="./images/fabreeko_kit_build/109.jpg" width="600"/>
+- Once the belt is tight, move the gantry all the way to each side, ideally the idlers will hit the side before the gantry hits the screws.  If the screws hit first, release the tensioning screws, release the belt clamp screws and try to get another tooth or two fed through.  Repeat the checks as needed.
 
-- If not already trimmed to the correct length, cut the belt so that it fits into the remaining teeth and secure in place with a zip tie
-
-<img src="./images/fabreeko_kit_build/110.jpg" width="400"/>
-<img src="./images/fabreeko_kit_build/111.jpg" width="300"/>
-
+- Trim any excess off the end of the X belt.  Leave 6 or so teeth extra to make reinstalls easier if you need to do repairs.
 
 [Jump to Top](#top)
+
 
 ### LDO Toolboard
 
-- If building from an LDO kit locate the printed [*LDO Toolboard mount*](../STLs/Gantry/Y/LDO%20Kit%20-%20Toolboard%20Mount%20v1.stl) and install it by removing the top two screws from the **Y Carriage**, align  the mount as shown and replace the screws.  
+- If building from an LDO kit locate the printed [*LDO Toolboard mount*](../STLs/Gantry/Y/LDO%20Kit%20-%20Toolboard%20Mount%20v1.stl) and install it by removing the top two screws from the **Y Carriage**, align the mount as shown and replace the screws.  
 
 - Use a pair of **M3x10 screws** to fasten the toolboard to the mount.
 >[!Note]
@@ -730,23 +736,27 @@ through the hole shown at the top.  This is not a captive nut, the hotend will b
 
 - Move the gantry on both the X and Y axis.  There should be smooth motion in both directions for the full range.  The belts should be tight enough that they do not slip on the pulley during a rapid movement.  Overtight belts can cause restricted or rough movement by adding torsion to the frame.  Adjust X or Y Tensioners as needed.
 
-- On both Side A and Side B insert 2 **M3 nuts** into the gantry mounting holes on the front of the pan as shown below.  A total of 4 nuts will be installed.
+- On both Side A and Side B insert 1 **M3 nuts** into the gantry positioning holes on the front of the pan as shown below.
 
-<img src="./images/build_guide/gantry-mount-1.png" width="400"/>
+<img src="./images/build_guide/gantry-mount-1b.png" width="400"/><img src="./images/build_guide/gantry-mount-1.png" width="400"/>
 
 - If needed, push the nuts completely into the holes using a 2mm Hex key (same size used to drive M2.5 screws).  Then, use the key to make sure the nuts are aligned by pushing it through the frame openings.
 
-<img src="./images/build_guide/gantry-mount-2.png" width="400"/>
+- Slide the gantry over top of the frame, line up the upper gantry mounting holes with the top (Pointy end) holes on both sides of the gantry. Install a **M3x25 screw** into this hole on each side.  Do not tighten completely.
 
-- Slide the gantry over top of the frame, line up the upper gantry mounting holes with the top (Pointy end) holes on the gantry. Install a **M3x20 screw** into this hole on each side.  Do not tighten completely.
+<img src="./images/build_guide/gantry-mount-4.png" width="400"/>
 
-<img src="./images/build_guide/gantry-mount-3.png" width="400"/>
-
-- Tilting the gantry to line up the other gantry mounting hole in the frame with the hole marked 45 install a second **M3x20 screw** in each side.
+- Tilting the gantry to line up the other gantry mounting hole in the frame with the hole marked 45 install a second **M3x25 screw** in each side.
 >[!NOTE]
 >This is easy to change later if printing at 30 degrees, 45 gives more room to complete the build.
 
+<img src="./images/build_guide/gantry-mount-5.png" width="400"/>
+
 - Tighten down all 4 gantry mounting bolts.
+
+- Tighten down all 4 of the X axis linear rail bolts we left loose eairlier.
+
+<img src="./images/build_guide/gantry-mount-6.png" width="400"/>
 
 - Put the bowden tube into the extruder, secure with a clip.
 
@@ -900,8 +910,9 @@ In this image the Motors and Axis are labeled in color match to the pinout diagr
 ## Build Complete
 
 Congratulations!!  Your Baby Belt Pro v2 should now be completely assembled!
+After you get it printing head on over to the BabyBelt Discord and request a serial number!
 >[!NOTE]
->The printer below is an LDO kit build with a couple options like filament sensor, pi, and alternative X/Y Cable routing.
+>The printer below is a v2.5 LDO kit build with a couple options like filament sensor, pi, and alternative X/Y Cable routing.
 
 <img src="./images/build_guide/complete-1.png" width="600"/>
 

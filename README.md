@@ -37,6 +37,8 @@ Refer to our [Printed Parts Guide](/documentation/printed_parts_guide.md)
 | [Documentation Index](./documentation/readme.md)             |  Listing of most recent guides                      |
 | [Mods](documentation/Klipper/mods/)                          | Current Mods for the BabyBelt Pro (Includes information on Klipper) |
 | [Printcepts Website](https://www.printcepts.com/)            | Find out about other Printcepts Projects                            |
+| [Printcepts Serial Number Registry](https://serials.printcepts.com/)            | Take a look at the Printcepts Printers Serial registry |
+
 | [Patreon](https://www.patreon.com/Printcepts)                | Help support Projects like this one!                                |
 | [YouTube (RobMink)](https://www.youtube.com/c/robmink)       | Current home of Printcepts Video Content                            |
 | [Discord](https://discord.gg/NTDZMsCwXh)                     | Join us for fun times or help with your build                       |
