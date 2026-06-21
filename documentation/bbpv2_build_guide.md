@@ -742,11 +742,11 @@ through the hole shown at the top.  This is not a captive nut, the hotend will b
 
 - If needed, push the nuts completely into the holes using a 2mm Hex key (same size used to drive M2.5 screws).  Then, use the key to make sure the nuts are aligned by pushing it through the frame openings.
 
-- Slide the gantry over top of the frame, line up the upper gantry mounting holes with the top (Pointy end) holes on both sides of the gantry. Install a **M3x25 screw** into this hole on each side.  Do not tighten completely.
+- Slide the gantry over top of the frame, line up the upper gantry mounting holes with the top (Pointy end) holes on both sides of the gantry. Install a **M3x30 screw** into this hole on each side.  Do not tighten completely.
 
 <img src="./images/build_guide/gantry-mount-4.png" width="400"/>
 
-- Tilting the gantry to line up the other gantry mounting hole in the frame with the hole marked 45 install a second **M3x25 screw** in each side.
+- Tilting the gantry to line up the other gantry mounting hole in the frame with the hole marked 45 install a second **M3x30 screw** in each side.
 >[!NOTE]
 >This is easy to change later if printing at 30 degrees, 45 gives more room to complete the build.
 
