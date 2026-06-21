@@ -1,14 +1,15 @@
 # BabyBeltPro
-BabyBelt Pro (V2.5, see branches for V1 or V2)
+BabyBelt Pro (V2.6, see branches for V1, V2, or v2.5)
 
-V2.5 changes  
-- Print at 30 or 45 degrees.  
-- Better underbed, one Y linear rail.  
-- Better wire routing, Holes for run out and better mounting options for pi and more.  
-- Stronger bed tension system.  
-- Better gantry setup with X upgraded belt tension  
-- Homes Y to bed  
-- Kit Ready
+ Whats new for v2.6
+   - Changed from 3 MGN7H rails (2X 1Y) to 1 MGN9C(Y) and 1 MGN12C(X)
+   - Removed 2mm screws (2.5s still needed for steppers and some hotend parts)
+   - Added M3x6 BHCS (Y Gantry to MGN12 rail) and M3x30 SHCS (new X gantry to frame)
+   - enhanced X gantry components for increased stability
+       - X gantry now uses heatsets M3x4x5 (Voron style)
+       - Backwards compatible with 2.5 BOM rails (mgn7H)
+   - Improved hole and screw insertion patterns for easier installation on Y axis
+   - Revised X/Y stepper mounting for easier install/maintenance
 
 ## The Printcepts Ethos
 Remember when you didn't need 30 different types of screw to build your 3D printer? Printcepts remembers...  
