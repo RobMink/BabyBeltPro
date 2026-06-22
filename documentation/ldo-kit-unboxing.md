@@ -1,6 +1,8 @@
 <a id="top"></a>  
-# BabyBelt Pro V2 West3d/LDO Motors Kit Unboxing
+# BabyBelt Pro V2.5 West3d/LDO Motors Kit Unboxing
 BabyBelt Pro V2 by RobMink, kit compiled and offered by West3D and LDO Motors
+>[!NOTE]
+>This is the unboxing of a v2.5 BOM kit.  Screws and rails will differ for kits sold after June 2026.
 
 Jump To...
 

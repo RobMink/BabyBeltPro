@@ -3,13 +3,16 @@
 | Document | Description|
 |-----------------------------------------------------|-|
 | [BBPv2 Build Guide](./bbpv2_build_guide.md)       |START HERE!!!! 
-| [Bill of Materials](https://docs.google.com/spreadsheets/d/19PbR3nFbQ4-eIOTU0kmoTl5-mHv_KsTnUdfFXekWg-I/edit?gid=0#gid=0) | What you need to build your own Baby Belt Pro 
+| [Bill of Materials - v2.6 (June 2026 and later kits)](https://docs.google.com/spreadsheets/d/1v36plWF4jhTKyU7lcRmKtOrlq0xkhAmYc6CiN3XZ0d4/edit?usp=sharing) | What you need to build your own Baby Belt Pro 
+| [Bill of Materials - v2.5 (May 2026 and earlier kits)](https://docs.google.com/spreadsheets/d/19PbR3nFbQ4-eIOTU0kmoTl5-mHv_KsTnUdfFXekWg-I/edit?gid=0#gid=0) | 
+| [2.6 to 2.5 BOM Comparison](https://docs.google.com/spreadsheets/d/1kGRp7HetTHD1QJIhhra-hTphuUvGR_UmELGdN8hx2xM/edit?pli=1&gid=0#gid=0) | Blue-common, Red-2.5, Green-2.6.  Useful for upgrade/rebuild
 | [Belt Assembly Instructions](./belt_guide.md)     |How to create your own custom belt.
 | [Printed Parts Guide](./printed_parts_guide.md)   |Read the build guide to be sure you know what to print for your build.
 | [Guided Firmware](./Guided_Firmware_Readme.md)    |Updates planned
 | [Slicer Setup Guide](./slicer_setup_guide.md)     |Instructions for importing supplied profiles into belt slicers
 | [Loop Printing Guide](./loop_printing_guide.md)   |Use M808 to easily print the same object multiple times
 | [Legacy Build Instructions](https://docs.google.com/document/d/1dYbbvt_AkUhesFwPe-TYXSqsQAuzoHFzMLlQnfHJwGQ/edit?usp=sharing) |Original v2 Google Doc guide from Rob.
+
 | [Legacy Fabreeko Kit Guide](./Fabreeko_kit_build_guide.md)    |
 | [Known Issues](./Known_Issues.md)                             |
 | [Change Log](./CHANGE-LOG.md)                                 |
