@@ -1,5 +1,8 @@
 # Change Log
 
+## 2026-06-25
+ - Added links to OrcaSlicer Nightly w/ belt support
+ 
 ## 2026-04-28
  - New profile for klipper FW and KiriMoto Slicer
  - Updated y-axis macros to include a -/+ 1mm move (community request)
