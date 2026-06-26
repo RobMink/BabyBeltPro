@@ -367,7 +367,10 @@ The main body or "tub" is assembled.
 ## Gantry
 
 ### Install Heatsets
-The gantry assembly requires 15 M3x4x5 aka Voron Style heatset inserts.  If you are not familiar here is an old but short video that gives an overview of the process by CanuckCreator [Heatset Insert in a Minute](https://www.youtube.com/shorts/cyof7fYFcuQ).
+The v2.6 gantry assembly requires 15 M3x4x5 aka Voron Style heatset inserts.  If you are not familiar here is an old but short video that gives an overview of the process by CanuckCreator [Heatset Insert in a Minute](https://www.youtube.com/shorts/cyof7fYFcuQ).
+
+>[!Note]
+> We STRONGLY recommend running a screw into each of these heatsets after they have cooled down.  Some of them, particularly the UnderMounts, can gather plastic on the inside and this will prevent the screws that mount the gantry to the frame from reaching the threads.
 
 - 6 inserts go in the [X Carriage](../STLs/Gantry/X/BBProV26fl_X-Carriage.stl) as shown below. The green is from re-using heatsets, ignore it.
 

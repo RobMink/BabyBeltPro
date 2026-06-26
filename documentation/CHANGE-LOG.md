@@ -1,5 +1,10 @@
 # Change Log
 
+## 2026-06-25
+ - Added links to OrcaSlicer Nightly w/ belt support
+ - Added note to build guide to chase heatsinks with an M3/20
+ 
+
 ## 2026-06-20
  - BabyBeltPro v2.6
     - Changed from 3 MGN7H rails (2X 1Y) to 1 MGN9C(Y) and 1 MGN12C(X)
