@@ -19,6 +19,10 @@ Printcepts started with a concept of taking parts you had lying around and makin
 - better layout for slicer profiles, 30 vs 45.  
 
 ## Slicers that support Belt Printing
+- [OrcaSlicer Nightly _belt build](https://github.com/OrcaSlicer/OrcaSlicer/releases/tag/nightly-builds) 
+  - A HUGE THANK YOU goes out to Discord user and belt printing community member [@harrierpigeon](https://github.com/HarrierPigeon) for taking on this task. Early support for belt/infinite Z printers is well underway and has been added as a branch to the main repo.
+  - Visit the link above and find the correct build fore your platform that has _belt at the end.
+  - A Princepts BabyBeltPro Klipper profile is already built in!
 - [Kirimoto](https://grid.space/kiri/)
 - [IdeaMaker](https://www.raise3d.com/ideamaker/)
 - [BlackBelt Cura](https://blackbelt-3d.com/download-software/)* (We are not currently working on a profile for this slicer, mentioned simply as a potential option)
