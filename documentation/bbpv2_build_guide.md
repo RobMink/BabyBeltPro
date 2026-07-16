@@ -53,15 +53,6 @@ There are a few decisions that have an impact on the parts that need purchased a
     - A Revo hotend can also be used.  This is a more expensive hotend but some folks opt for this solution for ease of nozzle changes and the [Revo Belt & Non Planar Nozzles](http://e3d-online.com/products/revo-belt-nozzles).
         - To use a Revo hotend print the revo carriage parts, purchase a Revo Micro 24v full hotend kit, a revo belt & non-planar nozzle, and a 3010 brushless 24v fan for parts cooling.
 
-1. Bowden to carriage connection - Coupler or ECAS
-    - The default carriage files are for a bowden coupler shown below.  If you are self sourcing or have one of these laying around use the [*YCar_Bam_SideA*](../STLs/Gantry/Carriage/Bambu/[a]_BBProV25fl_YCar_Bam_SideA.stl) and [*YCar_Bam_SideB*](../STLs/Gantry/Carriage/Bambu/[a]_BBProV25fl_YCar_Bam_SideB.stl) in the Bambu carriage folder
-         
-      <img src="./images/build_guide/bowden-coupler.png" width="50"/>
-    - LDO Kits include an ECAS connector shown below. If you need to use this connector print [*YCar_Bam_SideA_ECAS*](../STLs/Gantry/Carriage/Bambu/ECAS%20version/[a]_BBProV25fl_YCar_Bam_SideA_ECAS.stl) and either [*YCar_Bam_SideA_ECAS-Tight*](../STLs/Gantry/Carriage/Bambu/ECAS%20version/[a]_BBProV25fl_YCar_Bam_SideB_ecas-Tight.stl) or [*YCar_Bam_SideA_ECAS-Looser*](../STLs/Gantry/Carriage/Bambu/ECAS%20version/[a]_BBProV25fl_YCar_Bam_SideB_ecas-Looser.stl) depending on your desired fit.
-    
-     
-      <img src="./images/build_guide/bowden-ecas.png" width="50"/>
-
 1. Firmware - Marlin or Klipper
     - Marlin Firmware - can be run with the basic BOM or either commercial kits with no additional hardware outside of a Micro SD card.  The screen will be the primary interface, firmware and gcode files are moved to the printer using the SD card or something external like Octoprint.
 <a id="klipper-firmware"></a> 
@@ -82,6 +73,7 @@ There are a few decisions that have an impact on the parts that need purchased a
 - Adjustable Wrench
 - Wire Cutters
 - File, knife, and/or deburring tool (Good for making slight adjustments to plastic parts if needed.)
+- Electrical tape - or any thin tape to go on the rollers to add friction
 
 [Jump to Top](#top)
 
@@ -135,7 +127,7 @@ The base should now look like this.
 
 <img src="./images/build_guide/board-prep-2.png" width="500"/>
 
-- Install the SKR board by the power switch using 3, **M3x10mm**
+- Install the SKR board by the 2 round power switch and power jack openings using 3, **M3x10mm**
 >[!NOTE]
 >Ignore the power wires for now, images were re-used.
 <img src="./images/fabreeko_kit_build/10.jpg" width="500"/>
@@ -151,7 +143,7 @@ The base should now look like this.
 >Exact wiring of the switch and jack may differ.  Some switches take an extra hot in to power a LED.
 
 >[!CAUTION]
->LDO kits often have 2 power jacks included due to an original BOM mix up.  One will be loose the other will be in one of the boxes. Only one will fit the included power supply.  Test fit the jacks to the power supply to ensure you install the correct part, the other will not be needed.
+>LDO v2.5 kits often had 2 power jacks included only one will fit the included power supply.  Test fit the jacks to the power supply, the other will not be needed.  LDO v2.6 kits should not have this issue.
 
 Next install the **power jack** and **switch**. 
 
@@ -160,30 +152,19 @@ Next install the **power jack** and **switch**.
 - There are two circular holes next to each other on [*Side-B*](../STLs/Frame/BBProV25fl_Side-B.stl) of the printer. 
 - The black rubber cover for the power jack is optional
 - Secure the power jack with the supplied nut
-- The power switch will lock into place once pushed in
+- The power switch should only fit in one way, with the LED up and will lock into place once pushed in.
   
 <img src="./images/fabreeko_kit_build/7.jpg" width="400"/>
 
 Here is what it should look like from the other side. 
 
-Newer Kits
-
 <img src="./images/build_guide/power-switch-1.png" width="400"/>
 
-Older Kits
-
-<img src="./images/fabreeko_kit_build/8.jpg" width="400"/>
-
-
-- If needed wire the two components as shown below.  Be sure to cover all conductive parts with shrink wrap or electrical tape (not supplied) to insulate the connections and avoid accidental shorting
-- We opted to solder the wires to the connectors for this build
-
-<img src="./images/fabreeko_kit_build/9.jpg" width="400"/>
 
 >[!TIP]
 >If you are planning to install a buck converter to power a pi for [klipper firmware](#klipper-extras) or octoprint for marlin this is a good time to add wago 221 connectors and optionally crimp on ferrules for splicing.
 
-- Connect the wires from the power switch & power jack to the SKR board as shown below
+- Connect the wires from the power switch & power jack to the SKR board as shown below.  Grnd/black wire should be nearest the corner/edge(rear/scraper side of the printer), +24v/red wire goes nearest to the fuse/rest of the board(front/screen side of the printer).
 
 <img src="./images/fabreeko_kit_build/12.jpg" width="400"/>
 
@@ -252,58 +233,62 @@ Next use 2, **M3x10mm screws** and 2, **M3 Nuts** to attach the screen mount wit
 
 Next we will build and install the belt tensioners. 
 >[!NOTE]
->There are two of these, so do each step twice.
+>There are two of these, one for each side, make note of the part orientation.
 
-<img src="./images/fabreeko_kit_build/28.jpg" width="500"/>
+<img src="./images/build_guide/belt-ten-1.png" width="500"/>
 
-- Fit a **M8 Nut** into [*PrintBelt_Pusher-A*](../STLs/PrintBelt/%5Ba%5D_BBProV25fl_PrintBelt-Pusher-A.stl)/[*PrintBelt_Pusher-B*](../STLs/PrintBelt/%5Ba%5D_BBProV25fl_PrintBelt-Pusher-B.stl)
+- Fit a **M8 Nut** into both tensioners[*PrintBelt_Pusher-A*](../STLs/PrintBelt/%5Ba%5D_BBProV25fl_PrintBelt-Pusher-A.stl)/[*PrintBelt_Pusher-B*](../STLs/PrintBelt/%5Ba%5D_BBProV25fl_PrintBelt-Pusher-B.stl)
 
-<img src="./images/fabreeko_kit_build/29.jpg" width="300"/>
+<img src="./images/build_guide/belt-ten-2.png" width="300"/>
 
-- Secure it with a **M8x70mm** Screw 
+- Secure them both with a **M8x70mm** Screw 
 
-<img src="./images/fabreeko_kit_build/30.jpg" width="500"/>
+<img src="./images/build_guide/belt-ten-3.png" width="500"/>
 
 - Fit a **M8 Nut** into each of the [*PrintBelt_Nut*](../STLs/PrintBelt/%5Ba%5D_BBProV25fl_PrintBelt-Nut(2x).stl).
 
-<img src="./images/fabreeko_kit_build/31.jpg" width="500"/>
+<img src="./images/build_guide/belt-ten-4.png" width="500"/>
 
 - Line up holes on each [*PrintBelt_Frame-A*](../STLs/PrintBelt/%5Ba%5D_BBProV25fl_PrintBelt-Frame-A.stl)/[*PrintBelt_Frame-B*](../STLs/PrintBelt/%5Ba%5D_BBProV25fl_PrintBelt-Frame-B.stl) with the M8 inside the [*PrintBelt_Nut*](../STLs/PrintBelt/%5Ba%5D_BBProV25fl_PrintBelt-Nut(2x).stl).
 
+<img src="./images/build_guide/belt-ten-5.png" width="500"/>
 
-<img src="./images/fabreeko_kit_build/32.jpg" width="400"/>
 
-- Screw the frames onto the pushers.  Make sure that the frames are facing the correct way (thicker part on back with M3 hole further away from the pusher part.
+- Screw the frames onto the pushers about half way.  Make sure that the frames are facing the correct way (thicker part with m3 hole away from the pusher, side with bumps in the middle up). Make sure the correct frame is matched with the correct pushers, see image below.
 
-<img src="./images/fabreeko_kit_build/33.jpg" width="500"/>
+
+<img src="./images/build_guide/belt-ten-6.png" width="500"/>
+
 
 - There are spots for the tensioners to fit on either side of the base. 
 
-<img src="./images/fabreeko_kit_build/34.jpg" width="500"/>
+- Use a **M3x20mm screw** to install the tensioners into the openings on either side of the frame. The [*PrintBelt_Nut*](../STLs/PrintBelt/%5Ba%5D_BBProV25fl_PrintBelt-Nut(2x).stl) will align with the wider spot in the side openings.  The Pushers will be flat side up, curved side down. The screws do not thread into the bottom but driving it in may make it easier to guide in tight tolerances. 
 
-- Use a **M3x20mm screw** to install both of the tensioners with the curved face of the pusher facing downward. 
+<img src="./images/build_guide/belt-ten-7.png" width="800"/>
 
-<img src="./images/fabreeko_kit_build/35.jpg" width="500"/>
-<img src="./images/fabreeko_kit_build/36.jpg" width="500"/>
 
 [Jump to Top](#top)
 
 ### Rollers
+
 - Check both ends of both rollers and cleanup the openings if needed.
-- Wrap both [*rollers*](../STLs/ZBeltDrive/%5Ba%2Cs%5D_BBProV25fl_Roller%5Bx2%5D.stl) in electrical tape to maintain a better grip on the belt
-- We recommend 2 wraps, with the 2nd one helping to hold the first in place 
-- Place a **M8 Nut** into the side slot and then inserting a **M8x70 Hex Screw** with a **608ZZ bearing** fully into the [*roller*](../STLs/ZBeltDrive/%5Ba%2Cs%5D_BBProV25fl_Roller%5Bx2%5D.stl).
+
+- Wrap both [*rollers*](../STLs/ZBeltDrive/%5Ba%2Cs%5D_BBProV25fl_Roller%5Bx2%5D.stl) in electrical tape to maintain a better grip on the belt. We recommend 2 wraps in opposite spirals, the 2nd one will help hold the first in place. 
+
+- On one of the rollers place a **M8 Nut** into the side slot. Insert a **M8x70 Hex Screw** into the [*Roller_ZGear*](../STLs/ZBeltDrive/%5Ba%5D_BBProV25fl_Roller_ZGear.stl).  Add a **608ZZ bearing** to the screw and then hand tighten the screw into the roller.
+
+<img src="./images/fabreeko_kit_build/37.jpg" width="600"/>
+<img src="./images/fabreeko_kit_build/43.jpg" width="600"/>
+<img src="./images/fabreeko_kit_build/41.jpg" width="600"/>
+<img src="./images/fabreeko_kit_build/42.jpg" width="600"/>
+
+
+- For the other end of that roller and both ends of the other, place a **M8 Nut** into the side slot and then inserting a **M8x70 Hex Screw** with a **608ZZ bearing** fully into the [*roller*](../STLs/ZBeltDrive/%5Ba%2Cs%5D_BBProV25fl_Roller%5Bx2%5D.stl).  Hand tighten the screw into the roller.
 
 <img src="./images/fabreeko_kit_build/37.jpg" width="600"/>
 <img src="./images/fabreeko_kit_build/38.jpg" width="600"/>
 <img src="./images/fabreeko_kit_build/39.jpg" width="600"/>
 <img src="./images/fabreeko_kit_build/40.jpg" width="600"/>
-
-- On one of the rollers, install the [*Roller_ZGear*](../STLs/ZBeltDrive/%5Ba%5D_BBProV25fl_Roller_ZGear.stl) on the screw, before the bearing.
-
-<img src="./images/fabreeko_kit_build/41.jpg" width="600"/>
-<img src="./images/fabreeko_kit_build/42.jpg" width="600"/>
-<img src="./images/fabreeko_kit_build/43.jpg" width="600"/>
 
 [Jump to Top](#top)
 
@@ -376,7 +361,7 @@ The v2.6 gantry assembly requires 15 M3x4x5 aka Voron Style heatset inserts.  If
 
 <img src="./images/build_guide/x-carraige-heatsets.jpg" width="400"/>
 
-- 4 inserts go in EACH [[a]_BBProV26fl_XrailMountUnder-SideA.stl](../STLs/Gantry/X/[a]_BBProV26fl_XrailMountUnder-SideA.stl) and [[a]_BBProV26fl_XrailMountUnder-SideB.stl](../STLs/Gantry/X/[a]_BBProV26fl_XrailMountUnder-SideB.stl).  
+- 5 inserts go in EACH [[a]_BBProV26fl_XrailMountUnder-SideA.stl](../STLs/Gantry/X/[a]_BBProV26fl_XrailMountUnder-SideA.stl) and [[a]_BBProV26fl_XrailMountUnder-SideB.stl](../STLs/Gantry/X/[a]_BBProV26fl_XrailMountUnder-SideB.stl).  
 
 <img src="./images/build_guide/x-heatset-1.jpg" width="300"/>
 <img src="./images/build_guide/x-heatset-2.jpg" width="200"/>
@@ -385,6 +370,9 @@ The v2.6 gantry assembly requires 15 M3x4x5 aka Voron Style heatset inserts.  If
 <img src="./images/build_guide/x-heatset-6.jpg" width="300"/>
 <img src="./images/build_guide/x-heatset-4.jpg" width="200"/>
 <img src="./images/build_guide/x-heatset-5.jpg" width="200"/>
+
+>[!Caution]
+> You forgot to run a M3x20 screw into each of the heatsets after they have cooled down.  Go ahead and do it now. Some of them, particularly the UnderMounts, can gather plastic on the inside and prevent the gantry mounting screws from reaching the threads.
 
 [Jump to Top](#top)
 
@@ -401,8 +389,15 @@ The v2.6 gantry assembly requires 15 M3x4x5 aka Voron Style heatset inserts.  If
 
  - Take the cleaned and lubricated MGN12C rail, place it on a flat surface, move the carrier to the center, and carefully move the rubber stoppers from one end towards the center so the two holes are open.
 
- - On each side the Mount and Mount under pieces will be aligned with the raised portion towards the inside.
+>[!Note]
+> The extra holes above and below the rail aligner are for backward compatability with v2.5 that used 2 MGN7H rails for X.
 
+>[!Caution]
+> You probably missed the other two reminders to run a M3x20 screw in all the heatsets you installed.  Go ahead and do it now.  It will REALLY make you mad when mounting the gantry is harder than it has to be.
+
+ - On each side the Mount and MountUnder pieces will be aligned with the raised portion towards the inside.
+
+ <img src="./images/build_guide/x-carriage-0.jpg" width="400"/>
  <img src="./images/build_guide/x-carriage-1.jpg" width="400"/>
 
 - Line up the mount holes with the two end MGN12C rail holes and loosely fasten them together with **M3X10 screws**.  Slide the carrier towards that side, move the other stopper and fasten the other side.
@@ -528,14 +523,20 @@ through the hole shown at the top.  This is not a captive nut, the hotend will b
 [Jump to Top](#top)
 
 ### Hotend Electronics
+>[!CAUTION]
+> Resist the urge to install the silicon sock on the hotend. It will hit the bed before the nozzle reaches and make bad stuff happen.
+
 - Locate the hotend heater cartridge, thermistor, and clip. 
 
 <img src="./images/fabreeko_kit_build/81.jpg" width="500"/>
+
+- Apply a small amount of thermal compound to the thermistor bulb.
 
 - Insert the **thermistor** into the small hole in the block right above the nozzle and run the wire through the channel built into the black **heat break**. 
 
 <img src="./images/fabreeko_kit_build/84.jpg" width="400"/>
 
+- Apply a thin coating of thermal paste to the flatter side of the **heater cartridge**
 - Place the **heater cartridge** on the front of the block and run the wires through the same channel as the thermistor
 - Secure it and the thermistor in place with the **metal clip** 
 
@@ -553,7 +554,7 @@ through the hole shown at the top.  This is not a captive nut, the hotend will b
 
 <img src="./images/fabreeko_kit_build/88.jpg" width="400"/>
 
-- Use 2 **M2.5x12mm** screws in the bottom holes to secure the fan to the heat break.  These screw will cut into the metal.
+- Use 2 **M2.5x14mm** screws in the bottom holes to secure the fan to the heat break.  These screw will cut into the metal.
 
 <img src="./images/fabreeko_kit_build/89.jpg" width="400"/>
 
@@ -702,7 +703,7 @@ through the hole shown at the top.  This is not a captive nut, the hotend will b
 
 - Evenly tighten those screws to tighten the X belt.  It only needs to be tight enough that the belt does not slip on the motor pulley during a rapid move.
 
-- Once the belt is tight, move the gantry all the way to each side, ideally the idlers will hit the side before the gantry hits the screws.  If the screws hit first, release the tensioning screws, release the belt clamp screws and try to get another tooth or two fed through.  Repeat the checks as needed.
+- Once the belt is tight, move the gantry all the way to each side, ideally the idlers will hit the side before the gantry hits the screws.  If the screws hit first, release the tensioning screws on both sides, release the belt clamp screws on the left side and try to get another tooth or two fed through.  Repeat the checks as needed.
 
 - Trim any excess off the end of the X belt.  Leave 6 or so teeth extra to make reinstalls easier if you need to do repairs.
 

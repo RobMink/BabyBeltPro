@@ -3,6 +3,10 @@
 # BabyBelt Pro V2.5 - Slicer Setup Guide
 Profiles and guidance are provided for two belt supporting slicers.  IdeaMaker and the web based Kirimoto. Ideamaker is a bit more popular however Kirimoto is completely functional for basic use.
 
+## Orca
+
+- See note on main [Readme](../README.md) for progress.
+
 ## IdeaMaker
 
 ## KiriMoto

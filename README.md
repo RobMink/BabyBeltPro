@@ -16,14 +16,11 @@ Remember when you didn't need 30 different types of screw to build your 3D print
 We strive for a minimalist approach and don't go adding hardware "just because". If there is a screw that isn't an M3x10 or M3x20 SHCS we've got a very good reason for it!  
 Printcepts started with a concept of taking parts you had lying around and making use of them. We want to thank everyone who gave us feedback, who wanted us to improve and we took that to heart! At it's core the Baby Belt Project will have its roots in re-using parts and being affordable. That's why we  
 
-## TODO  
-- better layout for slicer profiles, 30 vs 45.  
-
 ## Slicers that support Belt Printing
 
 - [OrcaSlicer Nightly _belt build](https://github.com/OrcaSlicer/OrcaSlicer/releases/tag/nightly-builds) 
-  - A HUGE THANK YOU goes out to Discord user and belt printing community member [@harrierpigeon](https://github.com/HarrierPigeon) for taking on this task. Early support for belt/infinite Z printers is well underway and has been added as a branch to the main repo.
-  - Visit the link above and find the correct build fore your platform that has _belt at the end.
+  - A HUGE THANK YOU goes out to Discord user and belt printing community member [@harrierpigeon](https://github.com/HarrierPigeon) for taking on this task. Early support for belt/infinite Z printers is well underway and has been added as an official branch with nighties.
+  - Visit the link above and find the correct build for your platform that has _belt at the end.
   - A Princepts BabyBeltPro Klipper Firmware profile should be included within a couple days of 6/25/2026.
 - [Kirimoto](https://grid.space/kiri/)
 - [IdeaMaker](https://www.raise3d.com/ideamaker/)
@@ -41,6 +38,7 @@ Refer to our [Printed Parts Guide](/documentation/printed_parts_guide.md)
 |---------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------|
 | [BabyBelt Pro v2.5 Build Kit by LDO and West3D](https://west3d.com/products/baby-belt-pro-v2-5-complete-diy-belt-printer-kit-by-ldo-systems-and-west3d) | Purchase an all-in-one kit to get your BabyBelt built! * **
 | [Documentation Index](./documentation/readme.md)             |  Listing of most recent guides                      |
+| Canuck Creator BabyBeltPro v2.6 build stream [Part 1](https://www.youtube.com/watch?v=DY8zT4xcWCY) [Part 2](https://www.youtube.com/watch?v=IuilQai8yGI) [Part 3](https://www.youtube.com/watch?v=38l1KDUIX3I)                          | Thank you to [Canuck Creator](https://www.youtube.com/@CanuckCreator) for all the doc feedback! |
 | [Mods](documentation/Klipper/mods/)                          | Current Mods for the BabyBelt Pro (Includes information on Klipper) |
 | [Printcepts Website](https://www.printcepts.com/)            | Find out about other Printcepts Projects                            |
 | [Printcepts Serial Number Registry](https://serials.printcepts.com/)            | Take a look at the Printcepts Printers Serial registry |
