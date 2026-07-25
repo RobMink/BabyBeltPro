@@ -1,6 +1,8 @@
 # BabyBeltPro
 BabyBelt Pro (V2.5, see branches for V1 or V2)
 
+<img src="/documentation/images/bbp.jpg" width="600"/>
+
 V2.5 changes  
 - Print at 30 or 45 degrees.  
 - Better underbed, one Y linear rail.  
