@@ -143,7 +143,7 @@ The base should now look like this.
 >Exact wiring of the switch and jack may differ.  Some switches take an extra hot in to power a LED.
 
 >[!CAUTION]
->LDO v2.5 kits often had 2 power jacks included only one will fit the included power supply.  Test fit the jacks to the power supply, the other will not be needed.  LDO v2.6 kits should not have this issue.
+>LDO v2.6 kits should not have this issue. LDO v2.5 kits often had 2 power jacks included only one will fit the included power supply.  Test fit the jacks to the power supply, the other will not be needed.  
 
 Next install the **power jack** and **switch**. 
 
@@ -169,6 +169,8 @@ Here is what it should look like from the other side.
 <img src="./images/fabreeko_kit_build/12.jpg" width="400"/>
 
 <img src="./images/fabreeko_kit_build/13.jpg" width="400"/>
+
+- Now is a good time to connect the power supply, turn it on and see if the board gets lights to confirm your wiring. Turn the switch off, unplug the PSU and continue.
 
 [Jump to Top](#top)
 
@@ -401,6 +403,8 @@ The v2.6 gantry assembly requires 15 M3x4x5 aka Voron Style heatset inserts.  If
  <img src="./images/build_guide/x-carriage-1.jpg" width="400"/>
 
 - Line up the mount holes with the two end MGN12C rail holes and loosely fasten them together with **M3X10 screws**.  Slide the carrier towards that side, move the other stopper and fasten the other side.
+>[!Caution]
+> Leave the screws loose, you will want some play in the parts later on when you attach the gantry to the frame.
 
 <img src="./images/build_guide/x-carriage-2.jpg" width="400"/>
 <img src="./images/build_guide/x-carriage-3.jpg" width="400"/>
@@ -482,9 +486,7 @@ The v2.6 gantry assembly requires 15 M3x4x5 aka Voron Style heatset inserts.  If
   
       <img src="./images/build_guide/bowden-coupler.png" width="75"/>
       
-  - LDO Kit ECAS connector into [*YCar_Bam_SideB_ECAS-Tight*](../STLs/Gantry/Carriage/Bambu/ECAS%20version/[a]_BBProV25fl_YCar_Bam_SideB_ecas-Tight.stl) or [*YCar_Bam_SideB_ECAS-Looser*](../STLs/Gantry/Carriage/Bambu/ECAS%20version/[a]_BBProV25fl_YCar_Bam_SideB_ecas-Looser.stl)
-         
-      <img src="./images/build_guide/bowden-ecas.png" width="50"/>
+
 
 [Jump to Top](#top)
 
@@ -498,12 +500,15 @@ Next we will install the hotend to the [*YCar_Bam_Side-B*](../STLs/Gantry/Carria
 <img src="./images/fabreeko_kit_build/70.jpg" width="400"/>
 
 - Use a **M3x20mm screw** and a **M3 Nut** to attach the hotend to the [*YCar_Bam_Side-B*](../STLs/Gantry/Carriage/Bambu/%5Ba%5D_BBProV25fl_YCar_Bam_SideB.stl)
-through the hole shown at the top.  This is not a captive nut, the hotend will be held more firmly by the fan later.
+through the hole shown at the top.  Make sure the wire groove of the hotend heat sink is facing up/the short side of the plastic part.
+
 
 <img src="./images/fabreeko_kit_build/71.jpg" width="400"/>
 <img src="./images/fabreeko_kit_build/72.jpg" width="400"/>
 
 - Make sure the screw goes through the correct hole on the hotend
+>[!NOTE]
+>This is not a captive nut, the hotend will be held more firmly by the fan later.
 
 <img src="./images/fabreeko_kit_build/73.jpg" width="400"/>
 
@@ -745,6 +750,10 @@ through the hole shown at the top.  This is not a captive nut, the hotend will b
 <img src="./images/build_guide/gantry-mount-1b.png" width="400"/><img src="./images/build_guide/gantry-mount-1.png" width="400"/>
 
 - If needed, push the nuts completely into the holes using a 2mm Hex key (same size used to drive M2.5 screws).  Then, use the key to make sure the nuts are aligned by pushing it through the frame openings.
+
+>[!Note]
+> If you ignored us eairlier and tightened the screws holding the rails to the gantry brackets go ahead and loosen them up now so you do not break the parts pushing them over the frame.
+
 
 - Slide the gantry over top of the frame, line up the upper gantry mounting holes with the top (Pointy end) holes on both sides of the gantry. Install a **M3x30 screw** into this hole on each side.  Do not tighten completely.
 
