@@ -1,6 +1,8 @@
 # BabyBeltPro
 BabyBelt Pro (V2.6, see branches for V1, V2, or v2.5)
 
+<img src="/documentation/images/bbp.jpg" width="400"/>
+
  Whats new for v2.6
    - Changed from 3 MGN7H rails (2X 1Y) to 1 MGN9C(Y) and 1 MGN12C(X)
    - Removed 2mm screws (2.5s still needed for steppers and some hotend parts)
