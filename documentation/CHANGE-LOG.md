@@ -1,5 +1,13 @@
 # Change Log
 
+## 2026-08-13
+ - Updated X Motor mount with extra lift (avoids stepper shaft hitting the carrier)
+ - Build Guide updates - Thank you Nero!
+ - Printed Parts list updates
+    - Took off EACS toolhead parts, LDO 2.6 kits ship with a couple instead of EACS fittings..YAY!
+    - Added image and notes for the two bed types (heated bed and printed bed)
+    
+
 ## 2026-06-25
  - Added links to OrcaSlicer Nightly w/ belt support
  - Added note to build guide to chase heatsinks with an M3/20

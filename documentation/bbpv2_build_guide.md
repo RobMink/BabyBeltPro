@@ -409,18 +409,13 @@ The v2.6 gantry assembly requires 15 M3x4x5 aka Voron Style heatset inserts.  If
 <img src="./images/build_guide/x-carriage-2.jpg" width="400"/>
 <img src="./images/build_guide/x-carriage-3.jpg" width="400"/>
 
-- Position [*BBProV26fl_X-Carraige*](../STLs/Gantry/X/BBProV26fl_X-Carraige.stl) over the MGN12C carrier and securely fasten it using 4 **M3x6 BUTTON HEAD** screws.  
+- Position [*BBProV26fl_X-Carriage*](../STLs/Gantry/X/BBProV26fl_X-Carriage.stl) over the MGN12C carrier and securely fasten it using 4 **M3x6 BUTTON HEAD** screws.  
 >[!CAUTION]
 > You MUST used button head screws on this, the idlers will catch on Socket head caps and cause motion issues.  Yes, they are wrong in the picture.
 
 <img src="./images/build_guide/x-carriage-4.jpg" width="400"/>
 
-- On [*BBProV26fl_X-Carraige*](../STLs/Gantry/X/BBProV26fl_X-Carraige.stl) line up the **smooth idlers** with the indicated holes and secure in place with 2, **M3x20 screws**.
-
-
-
-
-
+- On [*BBProV26fl_X-Carriage*](../STLs/Gantry/X/BBProV26fl_X-Carriage.stl) line up the **smooth idlers** with the indicated holes and hold in place with 2, **M3x20 screws**.  The screws may not thread into the back of the plate depending on your print tolerances.  That will be fine, tension will hold them well enough.
 
 <img src="./images/build_guide/x-carriage-5.jpg" width="400"/>
 
@@ -473,7 +468,7 @@ The v2.6 gantry assembly requires 15 M3x4x5 aka Voron Style heatset inserts.  If
 <img src="./images/fabreeko_kit_build/65.jpg" width="400"/>
 <img src="./images/fabreeko_kit_build/66.jpg" width="400"/>
 
-- It should line up with the hotend fan like so:
+- It should line up with the hotend fan as shown below.  If everything looks good sit this part aside for now and continue on.
 
 <img src="./images/fabreeko_kit_build/67.jpg" width="400"/>
 
@@ -481,10 +476,11 @@ The v2.6 gantry assembly requires 15 M3x4x5 aka Voron Style heatset inserts.  If
 >[!Note]
 > No installation pictures for this step at the moment
 
-- Depending on the choice made in item 2 of [Pre-Purchase and Print Decisions](#pre-purchase-and-print-decisions) install either:
-  -  A Bowden coupler into [*YCar_Bam_SideB*](../STLs/Gantry/Carriage/Bambu/[a]_BBProV25fl_YCar_Bam_SideB.stl)
-  
-      <img src="./images/build_guide/bowden-coupler.png" width="75"/>
+- Install the bowden coupler into [*YCar_Bam_SideB*](../STLs/Gantry/Carriage/Bambu/[a]_BBProV25fl_YCar_Bam_SideB.stl)
+
+<img src="./images/build_guide/bowden-coupler.png" width="75"/>
+
+<img src="./images/build_guide/bowden-1.png " width="300"/>
       
 
 
@@ -566,24 +562,27 @@ through the hole shown at the top.  Make sure the wire groove of the hotend heat
 [Jump to Top](#top)
 
 ### Y Tensioner
-- Gather the [*TensionIdlerHolder*](../STLs/Gantry/Y/%5Ba%5D_BBProV25fl_RockMonsterNo1YTentionerIdlerHolder.stl), [*TensionBody*](../STLs/Gantry/Y/[a]_BBProV26fl_RockMonsterNo1YTentionerBody.stl), [*TensionerNut*](../STLs/Gantry/Y/%5Ba%5D_BBProV25fl_RockMonsterNo1YTentionerNut.stl), and an idler.
+- Gather the [*TensionIdlerHolder*](../STLs/Gantry/Y/%5Ba%5D_BBProV25fl_RockMonsterNo1YTentionerIdlerHolder.stl), [*TensionBody*](../STLs/Gantry/Y/[a]_BBProV26fl_RockMonsterNo1YTentionerBody.stl), [*TensionerNut*](../STLs/Gantry/Y/%5Ba%5D_BBProV25fl_RockMonsterNo1YTentionerNut.stl), an idler, and a M3x20 SHCS.
 
 <img src="./images/build_guide/y-tensioner-1.png" width="600"/>
 
-- Insert the [*TensionIdlerHolder*](../STLs/Gantry/Y/%5Ba%5D_BBProV25fl_RockMonsterNo1YTentionerIdlerHolder.stl) into the [*TensionBody*](../STLs/Gantry/Y/[a]_BBProV26fl_RockMonsterNo1YTentionerBody.stl) with the larger hole (to accommodate for the screw head) on the same side as the circular indentation on the body
+- On [*TensionIdlerHolder*](../STLs/Gantry/Y/%5Ba%5D_BBProV25fl_RockMonsterNo1YTentionerIdlerHolder.stl) and  [*TensionBody*](../STLs/Gantry/Y/[a]_BBProV26fl_RockMonsterNo1YTentionerBody.stl) note that there are counterbores.  We will use these to align the parts properly.
 
 <img src="./images/build_guide/y-tensioner-2.png" width="600"/>
 
-- Make sure the orientation matches the following picture and insert the idler as shown.
+- Insert the [*TensionIdlerHolder*](../STLs/Gantry/Y/%5Ba%5D_BBProV25fl_RockMonsterNo1YTentionerIdlerHolder.stl) into the [*TensionBody*](../STLs/Gantry/Y/[a]_BBProV26fl_RockMonsterNo1YTentionerBody.stl) with both counterbores facing upward.
 
 <img src="./images/build_guide/y-tensioner-3.png" width="600"/>
 
-- Keep the [*TensionIdlerHolder*](../STLs/Gantry/Y/%5Ba%5D_BBProV25fl_RockMonsterNo1YTentionerIdlerHolder.stl)  in place with a **M3x20mm screw**
+- Slide the idler into the [*TensionIdlerHolder*](../STLs/Gantry/Y/%5Ba%5D_BBProV25fl_RockMonsterNo1YTentionerIdlerHolder.stl), then insert a **M3x20mm screw** to hold it in place. The **M3x20mm screw** will stick out the bottom, this keeps the idler and holder from sliding out.
 
 <img src="./images/build_guide/y-tensioner-4.png" width="600"/>
 
->[!CAUTION]
->Make sure the configuration of your [*TensionIdlerHolder*](../STLs/Gantry/Y/%5Ba%5D_BBProV25fl_RockMonsterNo1YTentionerIdlerHolder.stl)  and [*TensionBody*](../STLs/Gantry/Y/[a]_BBProV26fl_RockMonsterNo1YTentionerBody.stl) are correct before proceeding.
+<img src="./images/build_guide/y-tensioner-5.png" width="600"/>
+
+- Screw the [*TensionerNut*](../STLs/Gantry/Y/%5Ba%5D_BBProV25fl_RockMonsterNo1YTentionerNut.stl) on the [*TensionIdlerHolder*](../STLs/Gantry/Y/%5Ba%5D_BBProV25fl_RockMonsterNo1YTentionerIdlerHolder.stl) a couple threads to hold everything together.
+
+<img src="./images/build_guide/y-tensioner-6.png" width="600"/>
 
 [Jump to Top](#top)
 
@@ -605,7 +604,7 @@ through the hole shown at the top.  Make sure the wire groove of the hotend heat
 
 ### Y Axis GT2 Belt
 
-- Pre-cut two belts to 480mm (Y axis) and 290mm (X axis). 
+- Pre-cut two belts to 480mm (Y axis) and 290mm (X axis).  These will be a little long. 
  
 - Run the longer (Y) belt through the Y tensioner, teeth facing toward the idler, and secure the first 3 teeth into the Y gantry
 
@@ -613,12 +612,10 @@ through the hole shown at the top.  Make sure the wire groove of the hotend heat
 
 <img src="./images/fabreeko_kit_build/103.jpg" width="280"/>
 
-- Loop the belt around, insert as much belt as you can fit into the remaining teeth and secure in place with a zip tie
+- Loop the belt around, insert as much belt as you can fit into the remaining teeth. Leave the belt lay for now, we will grab it with a pulley and cut it to length later.
 
 <img src="./images/fabreeko_kit_build/110.jpg" width="400"/>
-<img src="./images/fabreeko_kit_build/111.jpg" width="300"/>
 
-- leave the belt lay for now, we will grab it with a pulley later.
 
 [Jump to Top](#top)
 
@@ -637,7 +634,7 @@ through the hole shown at the top.  Make sure the wire groove of the hotend heat
 
 - Sit the two motors in a row with wires facing to the left.  Place [BBProV26fl_X-CarraigeMotorMount](../STLs/Gantry/X/BBProV26fl_X-CarraigeMotorMount.stl) on top of the motors with the pocketed side down.  Secure both to the mount with 4, **M2.5x6mm screws** in each motor.
 
-<img src="./images/build_guide/motor-mount-1.jpg" width="400"/>
+<img src="./images/build_guide/motor-mount-1.jpg" width="600"/>
 
 - The motor on the wider end will be your Y motor and go towards the hotend, the motor on the more narrow end will be the X.
 
@@ -698,7 +695,7 @@ through the hole shown at the top.  Make sure the wire groove of the hotend heat
 
 <img src="./images/build_guide/x-axis-18.png" width="400"/>
 
-- Pull as much slack as possible out of the X belt.  You might need to push it in from the inside and help guide it through.  Tighten the screws to hold the belt.
+- Pull as much slack as possible out of the X belt.  You might need to push it in from the inside and help guide it through. Tighten the screws to hold the belt.
 
 <img src="./images/build_guide/x-axis-19.png" width="400"/>
 
@@ -716,6 +713,10 @@ through the hole shown at the top.  Make sure the wire groove of the hotend heat
 
 
 ### LDO Toolboard
+
+- Before installing the the toolboard, shorten the Y axis belt with the tentioner loose.  After cutting and re-inserting the belt back into the teeth, secure it wiht a zip tie.
+
+<img src="./images/fabreeko_kit_build/111.jpg" width="300"/>
 
 - If building from an LDO kit locate the printed [*LDO Toolboard mount*](../STLs/Gantry/Y/LDO%20Kit%20-%20Toolboard%20Mount%20v1.stl) and install it by removing the top two screws from the **Y Carriage**, align the mount as shown and replace the screws.  
 
@@ -790,11 +791,13 @@ Having a heated bed is completely optional.  This step may vary depending on how
 
 - Find the [[HT]_BBProV25fl_UnderbedOrBed](../STLs/ZBeltDrive/[HT]_BBProV25fl_UnderbedOrBed.stl) part. Flip it flat side up, insert a **M3x20 screw** into the hole in each of the 4 wings.  Spin a **M3 nut** on the bottom of each screw.
 
+<img src="./images/printed_parts/ZBeltDrive/%5BHT%5D_BBProV25fl_UnderbedOrBed.jpg" width="500">
+
 ### LDO Kit Heated Bed
 
-- Find the [[HT]_BBProV25fl_UnderbedOrBed](../STLs/ZBeltDrive/[HT]_BBProV25fl_UnderbedOrBed.stl) part. Flip it channel side up, insert a **M3x20 screw** into the hole in each of the 4 wings.  Spin a **M3 nut** on the bottom of each screw.
+- Find the [[HT]_BBProV25fl_Underbed-notforbed-FOR_LDO_HEATBED](../STLs/ZBeltDrive/[HT]_BBProV25fl_Underbed-notforbed-FOR_LDO_HEATBED.stl) part. Flip it channel side up, insert a **M3x20 screw** into the hole in each of the 4 wings.  Spin a **M3 nut** on the bottom of each screw.
 
-<img src="./images/printed_parts/ZBeltDrive/%5BHT%5D_BBProV25fl_UnderbedOrBed.jpg" width="500">
+<img src="./images/printed_parts/ZBeltDrive/[HT]_BBProV25fl_Underbed-notforbed-FOR_LDO_HEATBED.jpg" width="500"/>
 
 - Find the heatbed and heatbed thermistor from the electronics box.
 - Thread the thermistor into the hole in the middle of the bottom side of the heatbed.
