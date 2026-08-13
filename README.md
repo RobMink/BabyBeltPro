@@ -38,7 +38,8 @@ Refer to our [Printed Parts Guide](/documentation/printed_parts_guide.md)
 
 | Links                                                                                                                                             | Description                                                         |
 |---------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------|
-| [BabyBelt Pro v2.5 Build Kit by LDO and West3D](https://west3d.com/products/baby-belt-pro-v2-5-complete-diy-belt-printer-kit-by-ldo-systems-and-west3d) | Purchase an all-in-one kit to get your BabyBelt built! * **
+| [BabyBelt Pro v2.6 Build Kit by LDO and West3D](https://west3d.com/products/baby-belt-pro-v2-5-complete-diy-belt-printer-kit-by-ldo-systems-and-west3d) | Purchase an all-in-one kit to get your BabyBelt built! * **
+| [BabyBelt Pro v2.6 Build Kit By LDO](https://kb-3d.com/store/ldo/10320-ldo-babybelt-pro-v26-belt-printer-kit-6975415159855.html)  | Now Available at KB-3D! |
 | [Documentation Index](./documentation/readme.md)             |  Listing of most recent guides                      |
 | Canuck Creator BabyBeltPro v2.6 build stream [Part 1](https://www.youtube.com/watch?v=DY8zT4xcWCY) [Part 2](https://www.youtube.com/watch?v=IuilQai8yGI) [Part 3](https://www.youtube.com/watch?v=38l1KDUIX3I)                          | Thank you to [Canuck Creator](https://www.youtube.com/@CanuckCreator) for all the doc feedback! |
 | [Mods](documentation/Klipper/mods/)                          | Current Mods for the BabyBelt Pro (Includes information on Klipper) |
